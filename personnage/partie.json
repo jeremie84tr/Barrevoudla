@@ -250,13 +250,13 @@
       {
         "nom": "Americ",
         "role": "Paladin, compagnon d'expédition",
-        "statut": "À confirmer (voir la mort du compagnon désigné par la créature géante)"
+        "statut": "Mort (désigné du doigt par la créature géante)"
       },
       {
         "nom": "Alesto",
         "role": "Second de l'équipage du bateau",
         "statut": "Mort",
-        "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Lien avec la créature géante qui l'a désigné du doigt : à confirmer."
+        "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Sa mort n'est pas liée à la créature géante qui a tué Americ."
       },
       {
         "nom": "Harpie (nom non indiqué)",
@@ -322,13 +322,12 @@
           "Arrivés en bateau sur l'île de Corvelune, expédition avec le paladin Americ ; Alesto est le second de l'équipage du bateau.",
           "Entrés dans la forêt ; en regardant derrière, le bateau et la base semblent avoir disparu.",
           "Premier combat à une intersection proposant deux chemins : passage à gué ou crêtes.",
-          "Combat arrêté subitement par une créature géante qui pointe Alesto du doigt : il meurt.",
+          "Combat arrêté subitement par une créature géante qui pointe Americ, le paladin, du doigt : il meurt.",
           "Fuite par la crête, franchissement d'un gouffre, la créature est semée.",
-          "Arrivée au village ; une nouvelle créature de grande taille, jamais rencontrée (ni à l'intersection ni la géante qui a tué Alesto), est aperçue et le combat commence.",
+          "Arrivée au village ; une nouvelle créature de grande taille, jamais rencontrée (ni à l'intersection ni la géante qui a tué Americ), est aperçue et le combat commence.",
           "La créature du village est achevée. Gromli, un camarade, offre à Barrevoudla une alliance récupérée sur elle, pour qu'il l'offre à sa harpie.",
           "Le groupe dort dans une taverne du village. Réveillés par des bruits, ils voient un homme à la lanterne qui toque à l'entrée de la taverne.",
           "L'homme à la lanterne emmène le groupe au fort, gardé par des squelettes. Il se présente comme capitaine et affirme que c'est un endroit sûr.",
-          "À CONFIRMER : la créature géante a désigné du doigt un compagnon qui est mort (noté Alesto, second du bateau, ou Americ, le paladin).",
           "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans."
         ]
       }
