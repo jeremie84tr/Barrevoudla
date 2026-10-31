@@ -147,7 +147,13 @@
     }
   ],
   "equipement": {
-    "equipe": [],
+    "equipe": [
+      "Aubéclat (épée dans son rocher, légèrement éveillée)",
+      "Anneau de saut",
+      "Le maudit bâton",
+      "Torche",
+      "Sac de couchage"
+    ],
     "inventaire": [
       {
         "nom": "Aubéclat (épée dans son rocher, légèrement éveillée)",
@@ -198,14 +204,15 @@
       "Anneau de saut",
       "Le maudit bâton"
     ],
-    "syntonise": [],
+    "syntonise": [
+      "Anneau de saut"
+    ],
     "capacite_speciale": {
       "nom": "Épée légendaire (Aubéclat)",
       "description": "L'épée ne reconnaît pas encore Barrevoudla comme son champion et refuse de se libérer. Il devra progressivement gagner l'intérêt de l'épée s'il veut un jour pouvoir la brandir sans s'encombrer du rocher qui va avec.",
       "aptitudes_debloquees": [
         "Un cristal bleu allumé : +1d4 dégâts radiants."
-      ],
-      "note": "Statut anneau de saut (lien/syntonisation) à confirmer."
+      ]
     }
   },
   "monnaie": {
