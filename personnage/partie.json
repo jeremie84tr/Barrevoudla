@@ -289,10 +289,10 @@
         "espece": "Lutrien (loutre)"
       },
       {
-        "nom": "Homme à la lanterne (nom non indiqué)",
-        "role": "Se présente comme capitaine",
+        "nom": "Capitaine Vonn",
+        "role": "Capitaine, chef du fort",
         "statut": "Au fort, avec le groupe",
-        "notes": "A toqué à la taverne pendant que le groupe dormait, puis l'a emmené au fort gardé par des squelettes en affirmant que c'est un endroit sûr (à vérifier)."
+        "notes": "L'homme à la lanterne qui a toqué à la taverne. A emmené le groupe au fort gardé par des squelettes en affirmant que c'est un endroit sûr (à vérifier). A banni Ysambre."
       },
       {
         "nom": "Maelis",
@@ -304,6 +304,12 @@
         "nom": "Aube",
         "role": "Fille d'Alesto, 7 ans",
         "statut": "Disparue"
+      },
+      {
+        "nom": "Ysambre",
+        "role": "Guérisseuse",
+        "statut": "Bannie par le capitaine Vonn",
+        "notes": "A fait revivre les morts sur l'île, ce qui a causé son bannissement."
       }
     ],
     "lieux": [
@@ -344,7 +350,8 @@
           "Le groupe dort dans une taverne du village. Réveillés par des bruits, ils voient un homme à la lanterne qui toque à l'entrée de la taverne.",
           "L'homme à la lanterne emmène le groupe au fort, gardé par des squelettes. Il se présente comme capitaine et affirme que c'est un endroit sûr.",
           "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans.",
-          "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maelis, son épouse. Leur fille s'appelle Aube."
+          "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maelis, son épouse. Leur fille s'appelle Aube.",
+          "L'homme à la lanterne est le capitaine Vonn. Il a banni Ysambre, une guérisseuse qui a fait revivre les morts sur l'île."
         ]
       }
     ]
