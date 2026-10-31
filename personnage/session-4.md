@@ -18,7 +18,7 @@ Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un c
 8. **Le capitaine** : réveillés par des bruits dans la taverne, le groupe voit un homme à la lanterne qui toque. C'est le **capitaine Vonn**, qui les emmène au fort gardé par des squelettes en affirmant que c'est un endroit sûr.
 9. **Alesto** : il est retrouvé mort dans la chambre d'enfant de sa fille de 7 ans, **Aube**, disparue. Il était parti il y a plus de 2 ans.
 10. **Ysambre** : une guérisseuse bannie par le capitaine pour avoir fait revivre les morts sur l'île.
-11. **Le rituel** : le groupe convainc le capitaine, entièrement squelettique, de le mener au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. Barrevoudla ouvre la cage et la convainc d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde.
+11. **Le rituel** : le groupe convainc le capitaine, entièrement squelettique, de le mener au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. **Gromli** ouvre la cage et Aube est convaincue d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde.
 12. **Fin** : le capitaine s'évapore, le groupe rentre au camp et au bateau.
 
 ## Personnages rencontrés
@@ -28,7 +28,7 @@ Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un c
 | Americ | Paladin, compagnon d'expédition | Mort (pointé du doigt par l'Arpenteur nocturne) |
 | Alesto | Second de l'équipage du bateau | Mort |
 | Maelis | Épouse d'Alesto (hypothèse) | Probablement la créature du village, achevée |
-| Aube | Fille d'Alesto, 7 ans | Libérée du miroir |
+| Aube | Fille d'Alesto, 7 ans | Libérée du miroir (cage ouverte par Gromli) |
 | Capitaine Vonn | Capitaine du fort | S'est évaporé |
 | Ysambre | Guérisseuse | Bannie |
 | Gromli | Nain, camarade | Avec le groupe |

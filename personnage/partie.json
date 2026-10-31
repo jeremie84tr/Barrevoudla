@@ -246,7 +246,7 @@
   "notes_de_partie": {
     "quetes": [
       "Offrir l'alliance à la harpie",
-      "Sauver Aube (accomplie : sortie de la cage du miroir ; les ténèbres sont aspirées par le miroir)"
+      "Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)"
     ],
     "pnj_rencontres": [
       {
@@ -274,7 +274,7 @@
         "nom": "Gromli",
         "role": "Camarade du groupe (nain)",
         "statut": "Avec le groupe",
-        "notes": "A offert à Barrevoudla l'alliance prise sur la créature du village, pour la harpie.",
+        "notes": "A offert à Barrevoudla l'alliance prise sur la créature du village, pour la harpie. A ouvert la cage d'Aube dans le reflet du miroir.",
         "espece": "Nain"
       },
       {
@@ -305,7 +305,7 @@
       {
         "nom": "Aube",
         "role": "Fille d'Alesto, 7 ans",
-        "statut": "Retrouvée : enfermée dans une cage dans le reflet du miroir, convaincue d'en sortir par Barrevoudla"
+        "statut": "Retrouvée : enfermée dans une cage dans le reflet du miroir ; Gromli ouvre la cage, elle est convaincue d'en sortir"
       },
       {
         "nom": "Ysambre",
@@ -356,7 +356,7 @@
           "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans.",
           "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maelis, son épouse. Leur fille s'appelle Aube.",
           "L'homme à la lanterne est le capitaine Vonn. Il a banni Ysambre, une guérisseuse qui a fait revivre les morts sur l'île.",
-          "Le capitaine Vonn (entièrement squelettique) est convaincu de mener le groupe au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. Barrevoudla ouvre la cage et la convainc d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde.",
+          "Le capitaine Vonn (entièrement squelettique) est convaincu de mener le groupe au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. Gromli ouvre la cage et Aube est convaincue d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde.",
           "Le capitaine Vonn s'évapore. Le groupe rentre au camp, puis au bateau.",
           "Fin de la session 4."
         ],
