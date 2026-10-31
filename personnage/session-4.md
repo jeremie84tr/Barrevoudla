@@ -4,7 +4,7 @@
 **Personnage** : Barrevoudla, Barbare (Magie sauvage) niveau 4, Drakéide rouge
 
 ## Rappel des sessions 1 à 3
-Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un combat (session 2) et lui déclare son amour. Elle l'aide ensuite à obtenir des renseignements sur le château des gobelins. Pour gagner sa confiance, il sauve 2 œufs de harpie. Les gobelins sont vaincus, le groupe prend le bateau et la harpie les accompagne.
+Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un combat (session 2) et lui déclare son amour. Elle l'aide ensuite à obtenir des renseignements sur le château des gobelins. Pour gagner sa confiance, il sauve 2 œufs de harpie. Les gobelins sont vaincus, le groupe prend le bateau. La harpie ne voyage pas avec le groupe : elle apparaît lors d'événements ponctuels.
 
 ## Déroulé
 
@@ -34,7 +34,7 @@ Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un c
 | Gromli | Nain, camarade | Avec le groupe |
 | Mineruva | Ensorceleuse, camarade | Avec le groupe |
 | Christophe | Moine lutrien (loutre), camarade | Avec le groupe |
-| Harpie (nom inconnu) | Compagne de Barrevoudla | Avec le groupe |
+| Harpie (nom inconnu) | Intérêt amoureux de Barrevoudla | Ne voyage pas avec le groupe, événements ponctuels |
 
 ## État de Barrevoudla en fin de session
 - **PV** : 23 / 53, dés de vie dépensés (0 / 4d12)

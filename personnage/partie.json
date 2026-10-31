@@ -266,8 +266,8 @@
       },
       {
         "nom": "Harpie (nom non indiqué)",
-        "role": "Compagne de voyage, intérêt amoureux déclaré de Barrevoudla",
-        "statut": "Avec le groupe",
+        "role": "Intérêt amoureux déclaré de Barrevoudla (ne voyage pas avec le groupe)",
+        "statut": "Apparaît lors d'événements ponctuels",
         "notes": "Protégée par Barrevoudla en session 2. A aidé pour les renseignements sur le château des gobelins (session 3), 2 œufs sauvés pour gagner sa confiance. Cherchait son diadème en session 4 : possible princesse ou personnage important de son espèce."
       },
       {
@@ -337,7 +337,7 @@
           "Île de départ (tutoriel / commencement de l'aventure) avec le château des gobelins, distincte de Corvelune. Nom de l'île non indiqué.",
           "Session 2, combat contre des harpies : une créature attaque l'une des harpies en même temps ; Barrevoudla protège la harpie et lui déclare son amour.",
           "Session 3 : la harpie l'aide à obtenir des renseignements sur le château des gobelins. Pour gagner sa confiance, Barrevoudla sauve des œufs de harpie (2 sauvés).",
-          "Les gobelins sont vaincus, le groupe prend le bateau ; la harpie semble les accompagner."
+          "Les gobelins sont vaincus, le groupe prend le bateau. La harpie ne voyage pas avec le groupe : elle apparaît lors d'événements ponctuels."
         ]
       },
       {
