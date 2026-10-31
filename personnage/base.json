@@ -1,54 +1,182 @@
 {
   "identite": {
     "nom": "Barrevoudla",
-    "joueur": "",
-    "race": "",
-    "sous_race": "",
-    "classe": "",
-    "sous_classe": "",
-    "historique": "",
-    "alignement": "",
-    "taille": "",
-    "poids": "",
-    "age": "",
-    "yeux": "",
-    "peau": "",
-    "cheveux": ""
+    "joueur": "Jérémie",
+    "espece": "Drakéide",
+    "lignee": "Rouge",
+    "classe": "Barbare",
+    "sous_classe": "Magie sauvage",
+    "historique": "Fermier",
+    "alignement": "Chaotique bon",
+    "taille_categorie": "M",
+    "taille": "2,15 m",
+    "poids": "150 kg",
+    "age": "24 ans",
+    "yeux": "Jaunes",
+    "cheveux": "",
+    "peau": "Écailles rouges"
   },
   "caracteristiques": {
-    "force": 10,
-    "dexterite": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "sagesse": 10,
-    "charisme": 10
+    "force": { "valeur": 16, "modificateur": 3 },
+    "dexterite": { "valeur": 14, "modificateur": 2 },
+    "constitution": { "valeur": 14, "modificateur": 2 },
+    "intelligence": { "valeur": 14, "modificateur": 2 },
+    "sagesse": { "valeur": 10, "modificateur": 0 },
+    "charisme": { "valeur": 8, "modificateur": -1 }
   },
   "maitrises": {
     "bonus_maitrise": 2,
-    "jets_de_sauvegarde": [],
-    "competences": [],
-    "expertises": [],
-    "armures": [],
-    "armes": [],
-    "outils": [],
-    "langues": []
+    "jets_de_sauvegarde": {
+      "force": { "maitrise": true, "bonus": 5 },
+      "dexterite": { "maitrise": false, "bonus": 2 },
+      "constitution": { "maitrise": true, "bonus": 4 },
+      "intelligence": { "maitrise": false, "bonus": 2 },
+      "sagesse": { "maitrise": false, "bonus": 0 },
+      "charisme": { "maitrise": false, "bonus": -1 }
+    },
+    "competences": {
+      "athletisme": { "carac": "force", "maitrise": true, "bonus": 5 },
+      "acrobaties": { "carac": "dexterite", "maitrise": false, "bonus": 2 },
+      "discretion": { "carac": "dexterite", "maitrise": false, "bonus": 2 },
+      "escamotage": { "carac": "dexterite", "maitrise": false, "bonus": 2 },
+      "arcanes": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
+      "histoire": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
+      "investigation": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
+      "nature": { "carac": "intelligence", "maitrise": true, "bonus": 4 },
+      "religion": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
+      "dressage": { "carac": "sagesse", "maitrise": true, "bonus": 2 },
+      "intuition": { "carac": "sagesse", "maitrise": false, "bonus": 0 },
+      "medecine": { "carac": "sagesse", "maitrise": false, "bonus": 0 },
+      "perception": { "carac": "sagesse", "maitrise": false, "bonus": 0 },
+      "survie": { "carac": "sagesse", "maitrise": true, "bonus": 2 },
+      "intimidation": { "carac": "charisme", "maitrise": true, "bonus": 1 },
+      "persuasion": { "carac": "charisme", "maitrise": false, "bonus": -1 },
+      "representation": { "carac": "charisme", "maitrise": false, "bonus": -1 },
+      "tromperie": { "carac": "charisme", "maitrise": false, "bonus": -1 }
+    },
+    "armures": ["Légères", "Intermédiaires", "Boucliers"],
+    "armes": ["Courantes", "De guerre"],
+    "bottes_d_arme": ["Renversement", "Sape", "Écorchure"],
+    "outils": ["Outils de charpentier"],
+    "langues": ["Commun", "Langue des signes", "Draconique"]
   },
   "traits": {
-    "traits_raciaux": [],
-    "capacites_de_classe": [],
-    "dons": []
+    "traits_d_espece": [
+      { "nom": "Humanoïde", "description": "Taille M (2,15 m)." },
+      { "nom": "Ascendance draconique", "description": "Rouge : feu." },
+      { "nom": "Résistance aux dégâts", "description": "Résistance aux dégâts de feu." },
+      {
+        "nom": "Souffle",
+        "description": "Remplace une attaque de l'action Attaque : cône de 4,50 m ou ligne de 9 m x 1,50 m. JS de Dextérité DD 12 : 1d10 feu, moitié si réussi. 2d10 au niveau 5.",
+        "utilisations_max": 2,
+        "recharge": "repos long"
+      },
+      { "nom": "Vision dans le noir", "description": "18 m." }
+    ],
+    "aptitudes_de_classe": [
+      {
+        "nom": "Rage",
+        "niveau": 1,
+        "type_action": "Action bonus",
+        "utilisations_max": 3,
+        "recharge": "1 au repos court, toutes au repos long",
+        "description": "Si vous ne portez pas d'armure lourde. Résistance aux dégâts contondants, perforants et tranchants. +2 aux dégâts des attaques basées sur la Force (arme ou mains nues). Avantage aux tests et jets de sauvegarde de Force. Ni concentration ni sorts. Dure jusqu'à la fin de votre tour suivant ; se termine si vous enfilez une armure lourde ou subissez l'état Neutralisé. Prolongée d'un round si, à votre tour, vous effectuez un jet d'attaque contre un ennemi, contraignez un ennemi à un jet de sauvegarde ou entreprenez une action bonus pour la prolonger. 10 minutes maximum."
+      },
+      {
+        "nom": "Défense sans armure",
+        "niveau": 1,
+        "type_action": "Passif",
+        "description": "Sans armure, CA de base = 10 + modificateurs de Dextérité et de Constitution. Conservé avec un bouclier."
+      },
+      {
+        "nom": "Bottes d'arme (3)",
+        "niveau": 1,
+        "type_action": "Passif",
+        "description": "Trois types d'arme de corps à corps courante ou de guerre dont vous recourez à la botte. À chaque repos long, vous pouvez changer l'un de ces choix."
+      },
+      {
+        "nom": "Sens du danger",
+        "niveau": 2,
+        "type_action": "Passif",
+        "description": "Avantage aux jets de sauvegarde de Dextérité, sauf si Neutralisé."
+      },
+      {
+        "nom": "Témérité",
+        "niveau": 2,
+        "type_action": "Premier jet d'attaque du tour",
+        "description": "Avantage aux jets d'attaque basés sur la Force jusqu'au début de votre tour suivant, mais les jets d'attaque contre vous ont l'Avantage dans le même intervalle."
+      },
+      {
+        "nom": "Savoir primal",
+        "niveau": 3,
+        "type_action": "Pendant la Rage",
+        "description": "Test de Force à la place des tests d'Acrobaties, Discrétion, Intimidation, Perception et Survie."
+      },
+      {
+        "nom": "Conscience magique (Magie sauvage)",
+        "niveau": 3,
+        "type_action": "Action",
+        "utilisations_max": 2,
+        "recharge": "repos long",
+        "description": "Jusqu'à la fin de votre prochain tour, vous connaissez l'emplacement de tout sort ou objet magique à 18 m ou moins non caché par un abri total, et l'école de magie de chaque sort."
+      },
+      {
+        "nom": "Accès sauvage (Magie sauvage)",
+        "niveau": 3,
+        "type_action": "En entrant en Rage",
+        "description": "En entrant en rage, lancez 1d8. JS éventuel : DD 12. « Réactivable » = par une action bonus à chacun de vos tours jusqu'à la fin de la rage.",
+        "effets": {
+          "1": "Créatures de votre choix à 9 m ou moins : JS CON ou 1d12 nécrotiques. Vous gagnez 1d12 + niveau de barbare PV temporaires.",
+          "2": "Téléportation dans un espace inoccupé visible à 9 m ou moins. Réactivable.",
+          "3": "Un esprit (flumph ou pixie) apparaît à 1,50 m d'une créature visible à 9 m ou moins et explose en fin de tour : JS DEX ou 1d6 force à 1,50 m autour. Réactivable.",
+          "4": "Éclair de lumière : une créature visible à 9 m ou moins, JS CON ou 1d6 radiants et Aveuglée jusqu'au début de votre prochain tour. Réactivable.",
+          "5": "Toute créature qui vous touche avec un jet d'attaque subit 1d6 force.",
+          "6": "+1 à la CA pour vous et vos alliés à 3 m ou moins.",
+          "7": "Le sol à 4,50 m autour de vous est un terrain difficile pour vos ennemis.",
+          "8": "Une arme tenue inflige des dégâts de force et gagne légère et lancer (6/18 m) ; elle revient dans votre main en fin de tour."
+        }
+      }
+    ],
+    "bottes_d_arme_details": [
+      {
+        "nom": "Renversement",
+        "declencheur": "Sur un coup au but",
+        "description": "La créature touchée doit réussir un JS de Constitution (DD 8 + modificateur de l'attaque + maîtrise) ou subit l'état À terre."
+      },
+      {
+        "nom": "Sape",
+        "declencheur": "Sur un coup au but",
+        "description": "La créature touchée subit un Désavantage à son prochain jet d'attaque avant le début de votre tour suivant."
+      },
+      {
+        "nom": "Écorchure",
+        "declencheur": "Sur une attaque ratée",
+        "description": "Si le jet d'attaque rate une créature, elle subit des dégâts égaux au modificateur de la caractéristique utilisée, du même type que ceux de l'arme, non augmentables autrement."
+      }
+    ],
+    "dons": [
+      {
+        "nom": "Robuste",
+        "origine": "Historique Fermier",
+        "description": "PV max augmentés du double de votre niveau quand vous recevez ce don, puis de 2 PV à chaque nouveau niveau."
+      },
+      {
+        "nom": "Cogneur lourd",
+        "origine": "Niveau 4",
+        "description": "+1 Force (max 20). Expert en armes lourdes : dégâts supplémentaires égaux au bonus de maîtrise avec une arme Lourde. Abattage : après un coup critique ou après avoir réduit une créature à 0 PV avec une telle arme, attaque avec la même arme par une action bonus."
+      }
+    ]
   },
   "personnalite": {
-    "traits_de_caractere": "",
-    "ideaux": "",
-    "liens": "",
-    "defauts": "",
-    "histoire": "",
-    "apparence": ""
+    "traits_de_caractere": "Bon vivant, sadique avec les méchants, amical avec les gentils.",
+    "ideaux": "Devenir l'élu d'Aubéclat.",
+    "liens": "S'oblige à être généreux avec tout le monde, végan des véhicules (aucune traction animale tolérée).",
+    "defauts": "Peut devenir sourd en cas de bruit fort (comme un feu d'artifice).",
+    "histoire": "Il a quitté le nid familial très jeune. Issu d'une famille de fermiers, il voulait devenir un grand guerrier. Pendant son vagabondage, il a trouvé une épée légendaire, Aubéclat, coincée dans un rocher et l'a récupérée (rocher inclus). Il pense qu'il doit débarrasser le monde du mal pour enfin être reconnu comme l'élu de l'épée.",
+    "apparence": "Un drakéide énorme et sec aux écailles rouges."
   },
   "lanceur_de_sorts": {
     "est_lanceur": false,
-    "caracteristique_incantation": "",
-    "degats_sorts_cantrips": []
+    "note": "Page de sorts de la fiche vierge. Sous-classe Magie sauvage : effets via Accès sauvage."
   }
 }

@@ -6,41 +6,50 @@
     "date_maj": "2026-10-31"
   },
   "niveau": {
-    "niveau": 1,
-    "xp": 0,
-    "xp_prochain_niveau": 300
+    "niveau": 4,
+    "xp": null,
+    "xp_prochain_niveau": null
   },
   "combat": {
-    "pv_max": 0,
-    "pv_actuels": 0,
+    "pv_max": 53,
+    "pv_actuels": 23,
     "pv_temporaires": 0,
-    "dés_de_vie": { "type": "", "total": 0, "restants": 0 },
-    "classe_armure": 10,
-    "initiative": 0,
+    "des_de_vie": { "type": "d12", "total": 4, "restants": null },
+    "classe_armure": 14,
+    "initiative": 2,
     "vitesse": "9 m",
     "inspiration": false,
     "jets_contre_la_mort": { "reussites": 0, "echecs": 0 },
     "etats": [],
-    "resistances": [],
+    "resistances": ["feu"],
     "immunites": [],
     "vulnerabilites": []
   },
   "sens": {
     "perception_passive": 10,
-    "vision": ""
+    "vision": "Vision dans le noir 18 m"
   },
   "attaques": [
+    { "nom": "Attaque basée sur la Force", "bonus_attaque": 5, "degats": "+3", "type_degats": "", "notes": "+2 dégâts supplémentaires en Rage (inclus : +3 de base sans Rage)" },
+    { "nom": "Attaque basée sur la Dextérité", "bonus_attaque": 4, "degats": "+2", "type_degats": "", "notes": "" },
     {
-      "nom": "",
-      "bonus_attaque": 0,
-      "degats": "",
-      "type_degats": "",
-      "notes": ""
+      "nom": "Aubéclat (épée légendaire)",
+      "bonus_attaque": 5,
+      "degats": "2d6+3",
+      "type_degats": "contondants",
+      "notes": "Compte comme un Maillet d'armes. Cristal bleu allumé : +1d4 radiants."
+    },
+    {
+      "nom": "Souffle",
+      "bonus_attaque": null,
+      "degats": "1d10 (2d10 au niveau 5)",
+      "type_degats": "feu",
+      "notes": "Remplace une attaque. Cône 4,50 m ou ligne 9 m x 1,50 m. JS DEX DD 12, moitié si réussi."
     }
   ],
   "sorts": {
-    "dd_sauvegarde": 0,
-    "bonus_attaque_sort": 0,
+    "dd_sauvegarde": null,
+    "bonus_attaque_sort": null,
     "emplacements": {
       "1": { "max": 0, "utilises": 0 },
       "2": { "max": 0, "utilises": 0 },
@@ -56,24 +65,29 @@
     "sorts_connus_prepares": []
   },
   "ressources": [
-    {
-      "nom": "",
-      "max": 0,
-      "restant": 0,
-      "recharge": ""
-    }
+    { "nom": "Rage", "max": 3, "cases_cochees": 1, "restant": null, "recharge": "1 au repos court, toutes au repos long", "notes": "1 case cochée sur la fiche (à confirmer : utilisée ou non)" },
+    { "nom": "Souffle", "max": 2, "cases_cochees": 1, "restant": null, "recharge": "repos long", "notes": "1 case cochée sur la fiche (à confirmer)" },
+    { "nom": "Conscience magique", "max": 2, "cases_cochees": 0, "restant": 2, "recharge": "repos long", "notes": "" }
   ],
   "equipement": {
-    "equipe": [],
+    "equipe": ["Aubéclat (épée légendaire, comptée comme Maillet d'armes)"],
     "inventaire": [],
-    "objets_magiques": [],
-    "syntonise": []
+    "objets_magiques": ["Aubéclat"],
+    "syntonise": [],
+    "capacite_speciale": {
+      "nom": "Épée légendaire (Aubéclat)",
+      "description": "L'épée ne reconnaît pas encore Barrevoudla comme son champion et refuse de se libérer. Il devra progressivement gagner l'intérêt de l'épée s'il veut un jour pouvoir la brandir sans s'encombrer du rocher qui va avec.",
+      "aptitudes_debloquees": ["Un cristal bleu allumé : +1d4 dégâts radiants."]
+    }
   },
   "monnaie": { "pc": 0, "pa": 0, "pe": 0, "po": 0, "pp": 0 },
   "notes_de_partie": {
     "quetes": [],
     "pnj_rencontres": [],
     "lieux": [],
-    "notes": []
+    "notes": [
+      "Surdité : en cas de bruit fort, JS de CON (DD selon l'intensité, à la discrétion du MJ). En cas d'échec, étourdi et perd l'ouïe pendant 5 minutes.",
+      "Aubéclat (coincée dans son rocher) compte comme un Maillet d'armes (2d6 contondants)."
+    ]
   }
 }
