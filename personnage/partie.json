@@ -255,7 +255,8 @@
       {
         "nom": "Alesto",
         "role": "Second de l'équipage du bateau",
-        "statut": "Mort (désigné du doigt par la créature géante) — à confirmer"
+        "statut": "Mort",
+        "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Lien avec la créature géante qui l'a désigné du doigt : à confirmer."
       },
       {
         "nom": "Harpie (nom non indiqué)",
@@ -327,7 +328,8 @@
           "La créature du village est achevée. Gromli, un camarade, offre à Barrevoudla une alliance récupérée sur elle, pour qu'il l'offre à sa harpie.",
           "Le groupe dort dans une taverne du village. Réveillés par des bruits, ils voient un homme à la lanterne qui toque à l'entrée de la taverne.",
           "L'homme à la lanterne emmène le groupe au fort, gardé par des squelettes. Il se présente comme capitaine et affirme que c'est un endroit sûr.",
-          "À CONFIRMER : la créature géante a désigné du doigt un compagnon qui est mort (noté Alesto, second du bateau, ou Americ, le paladin)."
+          "À CONFIRMER : la créature géante a désigné du doigt un compagnon qui est mort (noté Alesto, second du bateau, ou Americ, le paladin).",
+          "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans."
         ]
       }
     ]
