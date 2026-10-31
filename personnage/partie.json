@@ -280,9 +280,9 @@
       },
       {
         "nom": "Homme à la lanterne (nom non indiqué)",
-        "role": "Inconnu",
-        "statut": "À l'entrée de la taverne",
-        "notes": "A toqué à l'entrée de la taverne pendant que le groupe dormait."
+        "role": "Se présente comme capitaine",
+        "statut": "Au fort, avec le groupe",
+        "notes": "A toqué à la taverne pendant que le groupe dormait, puis l'a emmené au fort gardé par des squelettes en affirmant que c'est un endroit sûr (à vérifier)."
       }
     ],
     "lieux": [
@@ -292,7 +292,8 @@
       "Intersection à deux chemins : passage à gué ou crêtes (choix : les crêtes)",
       "Gouffre franchi pour semer la créature",
       "Village délabré de Corvelune (lieu du combat actuel)",
-      "Taverne du village (le groupe y dort)"
+      "Taverne du village (le groupe y dort)",
+      "Fort gardé par des squelettes (le capitaine affirme que c'est sûr)"
     ],
     "notes": [
       "Surdité : en cas de bruit fort, JS de CON (DD selon l'intensité, à la discrétion du MJ). En cas d'échec, étourdi et perd l'ouïe pendant 5 minutes.",
@@ -319,15 +320,16 @@
           "Fuite par la crête, franchissement d'un gouffre, la créature est semée.",
           "Arrivée au village ; une nouvelle créature de grande taille, jamais rencontrée (ni à l'intersection ni la géante qui a tué Alesto), est aperçue et le combat commence.",
           "La créature du village est achevée. Gromli, un camarade, offre à Barrevoudla une alliance récupérée sur elle, pour qu'il l'offre à sa harpie.",
-          "Le groupe dort dans une taverne du village. Réveillés par des bruits, ils voient un homme à la lanterne qui toque à l'entrée de la taverne."
+          "Le groupe dort dans une taverne du village. Réveillés par des bruits, ils voient un homme à la lanterne qui toque à l'entrée de la taverne.",
+          "L'homme à la lanterne emmène le groupe au fort, gardé par des squelettes. Il se présente comme capitaine et affirme que c'est un endroit sûr."
         ]
       }
     ]
   },
   "situation_actuelle": {
     "en_combat": false,
-    "lieu": "Taverne du village délabré de Corvelune",
+    "lieu": "Fort gardé par des squelettes (Corvelune)",
     "adversaire": "Créature de grande taille du village : achevée",
-    "notes": "Groupe réveillé par des bruits ; un homme à la lanterne toque à l'entrée."
+    "notes": "Emmenés au fort par l'homme à la lanterne, qui se dit capitaine."
   }
 }
