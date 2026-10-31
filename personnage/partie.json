@@ -1,0 +1,79 @@
+{
+  "campagne": {
+    "nom": "",
+    "mj": "",
+    "session": 0,
+    "date_maj": "2026-10-31"
+  },
+  "niveau": {
+    "niveau": 1,
+    "xp": 0,
+    "xp_prochain_niveau": 300
+  },
+  "combat": {
+    "pv_max": 0,
+    "pv_actuels": 0,
+    "pv_temporaires": 0,
+    "dés_de_vie": { "type": "", "total": 0, "restants": 0 },
+    "classe_armure": 10,
+    "initiative": 0,
+    "vitesse": "9 m",
+    "inspiration": false,
+    "jets_contre_la_mort": { "reussites": 0, "echecs": 0 },
+    "etats": [],
+    "resistances": [],
+    "immunites": [],
+    "vulnerabilites": []
+  },
+  "sens": {
+    "perception_passive": 10,
+    "vision": ""
+  },
+  "attaques": [
+    {
+      "nom": "",
+      "bonus_attaque": 0,
+      "degats": "",
+      "type_degats": "",
+      "notes": ""
+    }
+  ],
+  "sorts": {
+    "dd_sauvegarde": 0,
+    "bonus_attaque_sort": 0,
+    "emplacements": {
+      "1": { "max": 0, "utilises": 0 },
+      "2": { "max": 0, "utilises": 0 },
+      "3": { "max": 0, "utilises": 0 },
+      "4": { "max": 0, "utilises": 0 },
+      "5": { "max": 0, "utilises": 0 },
+      "6": { "max": 0, "utilises": 0 },
+      "7": { "max": 0, "utilises": 0 },
+      "8": { "max": 0, "utilises": 0 },
+      "9": { "max": 0, "utilises": 0 }
+    },
+    "tours_de_magie": [],
+    "sorts_connus_prepares": []
+  },
+  "ressources": [
+    {
+      "nom": "",
+      "max": 0,
+      "restant": 0,
+      "recharge": ""
+    }
+  ],
+  "equipement": {
+    "equipe": [],
+    "inventaire": [],
+    "objets_magiques": [],
+    "syntonise": []
+  },
+  "monnaie": { "pc": 0, "pa": 0, "pe": 0, "po": 0, "pp": 0 },
+  "notes_de_partie": {
+    "quetes": [],
+    "pnj_rencontres": [],
+    "lieux": [],
+    "notes": []
+  }
+}

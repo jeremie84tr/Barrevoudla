@@ -1,0 +1,54 @@
+{
+  "identite": {
+    "nom": "Barrevoudla",
+    "joueur": "",
+    "race": "",
+    "sous_race": "",
+    "classe": "",
+    "sous_classe": "",
+    "historique": "",
+    "alignement": "",
+    "taille": "",
+    "poids": "",
+    "age": "",
+    "yeux": "",
+    "peau": "",
+    "cheveux": ""
+  },
+  "caracteristiques": {
+    "force": 10,
+    "dexterite": 10,
+    "constitution": 10,
+    "intelligence": 10,
+    "sagesse": 10,
+    "charisme": 10
+  },
+  "maitrises": {
+    "bonus_maitrise": 2,
+    "jets_de_sauvegarde": [],
+    "competences": [],
+    "expertises": [],
+    "armures": [],
+    "armes": [],
+    "outils": [],
+    "langues": []
+  },
+  "traits": {
+    "traits_raciaux": [],
+    "capacites_de_classe": [],
+    "dons": []
+  },
+  "personnalite": {
+    "traits_de_caractere": "",
+    "ideaux": "",
+    "liens": "",
+    "defauts": "",
+    "histoire": "",
+    "apparence": ""
+  },
+  "lanceur_de_sorts": {
+    "est_lanceur": false,
+    "caracteristique_incantation": "",
+    "degats_sorts_cantrips": []
+  }
+}
