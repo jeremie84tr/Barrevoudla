@@ -8,7 +8,8 @@
   "niveau": {
     "niveau": 4,
     "xp": null,
-    "xp_prochain_niveau": null
+    "xp_prochain_niveau": null,
+    "note": "XP gérée par le MJ"
   },
   "combat": {
     "pv_max": 53,
@@ -17,7 +18,8 @@
     "des_de_vie": {
       "type": "d12",
       "total": 4,
-      "restants": null
+      "restants": null,
+      "note": "Gérés par le MJ"
     },
     "classe_armure": 14,
     "initiative": 2,
@@ -148,9 +150,9 @@
       "nom": "Le maudit bâton",
       "max": 2,
       "cases_cochees": 0,
-      "restant": null,
+      "restant": 2,
       "recharge": "2 à l'aube",
-      "notes": "Charges actuelles à confirmer"
+      "notes": "2 charges restantes"
     }
   ],
   "equipement": {
@@ -190,7 +192,7 @@
         "valeur": "7500 po",
         "charges": {
           "max": 2,
-          "actuelles": null,
+          "actuelles": 2,
           "recuperation": "2 à l'aube"
         },
         "description": "Au prix d'une action et d'une charge, permet de ranimer le cadavre d'une créature dont le facteur de puissance est inférieur ou égal au niveau du lanceur moins 2. La réanimation dure une heure maximum. Le lanceur ne peut pas contrôler plus de 2 morts-vivants ainsi ranimés simultanément."
@@ -229,7 +231,8 @@
     "pa": 0,
     "pe": 0,
     "po": 0,
-    "pp": 0
+    "pp": 0,
+    "note": "Gérée par le MJ pour le moment"
   },
   "notes_de_partie": {
     "quetes": [],
