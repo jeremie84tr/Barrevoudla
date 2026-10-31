@@ -13,13 +13,13 @@
   },
   "combat": {
     "pv_max": 53,
-    "pv_actuels": 23,
+    "pv_actuels": 37,
     "pv_temporaires": 0,
     "des_de_vie": {
       "type": "d12",
       "total": 4,
-      "restants": null,
-      "note": "Gérés par le MJ"
+      "restants": 0,
+      "note": "Les 4d12 ont été dépensés (repos court)"
     },
     "classe_armure": 14,
     "initiative": 2,
