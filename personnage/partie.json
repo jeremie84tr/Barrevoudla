@@ -236,11 +236,36 @@
   },
   "notes_de_partie": {
     "quetes": [],
-    "pnj_rencontres": [],
-    "lieux": [],
+    "pnj_rencontres": [
+      {
+        "nom": "Alesto",
+        "role": "Paladin, compagnon d'expédition",
+        "statut": "Mort (désigné du doigt par la créature géante)"
+      }
+    ],
+    "lieux": [
+      "Île de Corvelune : arrivée en bateau, base visible au départ",
+      "Forêt : en regardant derrière, le bateau et la base semblent avoir disparu",
+      "Intersection à deux chemins : passage à gué ou crêtes (choix : les crêtes)",
+      "Gouffre franchi pour semer la créature",
+      "Village délabré de Corvelune (lieu du combat actuel)"
+    ],
     "notes": [
       "Surdité : en cas de bruit fort, JS de CON (DD selon l'intensité, à la discrétion du MJ). En cas d'échec, étourdi et perd l'ouïe pendant 5 minutes.",
       "Aubéclat (coincée dans son rocher) compte comme un Maillet d'armes (2d6 contondants)."
+    ],
+    "resume_sessions": [
+      {
+        "session": 4,
+        "evenements": [
+          "Arrivés en bateau sur l'île de Corvelune, expédition avec un paladin, Alesto.",
+          "Entrés dans la forêt ; en regardant derrière, le bateau et la base semblent avoir disparu.",
+          "Premier combat à une intersection proposant deux chemins : passage à gué ou crêtes.",
+          "Combat arrêté subitement par une créature géante qui pointe Alesto du doigt : il meurt.",
+          "Fuite par la crête, franchissement d'un gouffre, la créature est semée.",
+          "Arrivée au village ; la créature du combat est aperçue et un nouveau combat commence."
+        ]
+      }
     ]
   },
   "situation_actuelle": {
