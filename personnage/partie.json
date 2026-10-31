@@ -3,7 +3,8 @@
     "nom": "Halloween sur l'île de Corvelune",
     "mj": "Nicolas Urban",
     "session": 4,
-    "date_maj": "2026-10-31"
+    "date_maj": "2026-10-31",
+    "statut": "Session 4 terminée"
   },
   "niveau": {
     "niveau": 4,
@@ -356,8 +357,10 @@
           "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maelis, son épouse. Leur fille s'appelle Aube.",
           "L'homme à la lanterne est le capitaine Vonn. Il a banni Ysambre, une guérisseuse qui a fait revivre les morts sur l'île.",
           "Le capitaine Vonn (entièrement squelettique) est convaincu de mener le groupe au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. Barrevoudla ouvre la cage et la convainc d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde.",
-          "Le capitaine Vonn s'évapore. Le groupe rentre au camp, puis au bateau."
-        ]
+          "Le capitaine Vonn s'évapore. Le groupe rentre au camp, puis au bateau.",
+          "Fin de la session 4."
+        ],
+        "termine": true
       }
     ],
     "creatures": [
@@ -372,6 +375,6 @@
     "en_combat": false,
     "lieu": "Camp, puis bateau",
     "adversaire": "Créature de grande taille du village : achevée",
-    "notes": "Le capitaine s'est évaporé. Le groupe rentre au camp et au bateau."
+    "notes": "Fin de la session 4. Le groupe est au camp et au bateau."
   }
 }
