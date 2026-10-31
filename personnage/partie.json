@@ -29,18 +29,13 @@
       "reussites": 0,
       "echecs": 0
     },
-    "etats": [
-      "Rage active"
-    ],
+    "etats": [],
     "resistances": [
-      "feu",
-      "contondants (Rage)",
-      "perforants (Rage)",
-      "tranchants (Rage)"
+      "feu"
     ],
     "immunites": [],
     "vulnerabilites": [],
-    "en_combat": true
+    "en_combat": false
   },
   "sens": {
     "perception_passive": 10,
@@ -127,8 +122,8 @@
       "cases_cochees": 2,
       "restant": 1,
       "recharge": "1 au repos court, toutes au repos long",
-      "notes": "Rage en cours (2e combat), 1 charge restante",
-      "en_cours": true
+      "notes": "1 charge restante (Rage terminée avec la fin du combat)",
+      "en_cours": false
     },
     {
       "nom": "Souffle",
@@ -161,7 +156,8 @@
       "Anneau de saut",
       "Le maudit bâton",
       "Torche",
-      "Sac de couchage"
+      "Sac de couchage",
+      "Alliance"
     ],
     "inventaire": [
       {
@@ -206,6 +202,11 @@
         "nom": "Sac de couchage",
         "valeur": "1 po",
         "description": "Permet à une créature de taille Petite ou Moyenne de dormir. Réussite automatique aux jets de sauvegarde contre le froid extrême."
+      },
+      {
+        "nom": "Alliance",
+        "type": "Bijou",
+        "description": "Récupérée sur la créature du village par Gromli, qui l'a offerte à Barrevoudla pour qu'il l'offre à sa harpie."
       }
     ],
     "objets_magiques": [
@@ -235,7 +236,9 @@
     "note": "Gérée par le MJ pour le moment"
   },
   "notes_de_partie": {
-    "quetes": [],
+    "quetes": [
+      "Offrir l'alliance à la harpie"
+    ],
     "pnj_rencontres": [
       {
         "nom": "Alesto",
@@ -247,6 +250,12 @@
         "role": "Compagne de voyage, intérêt amoureux déclaré de Barrevoudla",
         "statut": "Avec le groupe",
         "notes": "Protégée par Barrevoudla en session 2. A aidé pour les renseignements sur le château des gobelins (session 3), 2 œufs sauvés pour gagner sa confiance. Cherchait son diadème en session 4 : possible princesse ou personnage important de son espèce."
+      },
+      {
+        "nom": "Gromli",
+        "role": "Camarade du groupe",
+        "statut": "Avec le groupe",
+        "notes": "A offert à Barrevoudla l'alliance prise sur la créature du village, pour la harpie."
       }
     ],
     "lieux": [
@@ -280,15 +289,16 @@
           "Premier combat à une intersection proposant deux chemins : passage à gué ou crêtes.",
           "Combat arrêté subitement par une créature géante qui pointe Alesto du doigt : il meurt.",
           "Fuite par la crête, franchissement d'un gouffre, la créature est semée.",
-          "Arrivée au village ; une nouvelle créature de grande taille, jamais rencontrée (ni à l'intersection ni la géante qui a tué Alesto), est aperçue et le combat commence."
+          "Arrivée au village ; une nouvelle créature de grande taille, jamais rencontrée (ni à l'intersection ni la géante qui a tué Alesto), est aperçue et le combat commence.",
+          "La créature du village est achevée. Gromli, un camarade, offre à Barrevoudla une alliance récupérée sur elle, pour qu'il l'offre à sa harpie."
         ]
       }
     ]
   },
   "situation_actuelle": {
-    "en_combat": true,
+    "en_combat": false,
     "lieu": "Village délabré de Corvelune",
-    "adversaire": "Créature de grande taille, nouvelle (inconnue jusque-là : pas rencontrée à l'intersection, distincte de la créature géante qui a tué Alesto)",
-    "notes": "Rage en cours, deuxième combat avec la Rage."
+    "adversaire": "Créature de grande taille du village : achevée",
+    "notes": "Combat terminé. Rage terminée."
   }
 }
