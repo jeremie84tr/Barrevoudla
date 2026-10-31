@@ -213,7 +213,7 @@
       {
         "nom": "Alliance",
         "type": "Bijou",
-        "description": "Récupérée sur la créature du village par Gromli, qui l'a offerte à Barrevoudla pour qu'il l'offre à sa harpie."
+        "description": "Récupérée sur la créature du village par Gromli, qui l'a offerte à Barrevoudla pour qu'il l'offre à sa harpie. Même bague qu'Alesto : elle appartenait probablement à Maëlys, son épouse."
       }
     ],
     "objets_magiques": [
@@ -256,7 +256,11 @@
         "nom": "Alesto",
         "role": "Second de l'équipage du bateau",
         "statut": "Mort",
-        "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Sa mort n'est pas liée à la créature géante qui a tué Americ."
+        "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Sa mort n'est pas liée à la créature géante qui a tué Americ. Portait la même bague que la créature du village.",
+        "famille": {
+          "epouse": "Maëlys (hypothèse : la créature du village)",
+          "fille": "Aube (7 ans, disparue)"
+        }
       },
       {
         "nom": "Harpie (nom non indiqué)",
@@ -289,6 +293,17 @@
         "role": "Se présente comme capitaine",
         "statut": "Au fort, avec le groupe",
         "notes": "A toqué à la taverne pendant que le groupe dormait, puis l'a emmené au fort gardé par des squelettes en affirmant que c'est un endroit sûr (à vérifier)."
+      },
+      {
+        "nom": "Maëlys",
+        "role": "Probable épouse d'Alesto",
+        "statut": "Hypothèse : la créature du village, achevée par le groupe",
+        "notes": "La créature du village portait la même bague qu'Alesto (l'alliance donnée par Gromli à Barrevoudla)."
+      },
+      {
+        "nom": "Aube",
+        "role": "Fille d'Alesto, 7 ans",
+        "statut": "Disparue"
       }
     ],
     "lieux": [
@@ -328,7 +343,8 @@
           "La créature du village est achevée. Gromli, un camarade, offre à Barrevoudla une alliance récupérée sur elle, pour qu'il l'offre à sa harpie.",
           "Le groupe dort dans une taverne du village. Réveillés par des bruits, ils voient un homme à la lanterne qui toque à l'entrée de la taverne.",
           "L'homme à la lanterne emmène le groupe au fort, gardé par des squelettes. Il se présente comme capitaine et affirme que c'est un endroit sûr.",
-          "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans."
+          "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans.",
+          "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maëlys, son épouse. Leur fille s'appelle Aube."
         ]
       }
     ]
