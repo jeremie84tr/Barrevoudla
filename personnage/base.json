@@ -17,61 +17,198 @@
     "peau": "Écailles rouges"
   },
   "caracteristiques": {
-    "force": { "valeur": 16, "modificateur": 3 },
-    "dexterite": { "valeur": 14, "modificateur": 2 },
-    "constitution": { "valeur": 14, "modificateur": 2 },
-    "intelligence": { "valeur": 14, "modificateur": 2 },
-    "sagesse": { "valeur": 10, "modificateur": 0 },
-    "charisme": { "valeur": 8, "modificateur": -1 }
+    "force": {
+      "valeur": 16,
+      "modificateur": 3
+    },
+    "dexterite": {
+      "valeur": 14,
+      "modificateur": 2
+    },
+    "constitution": {
+      "valeur": 14,
+      "modificateur": 2
+    },
+    "intelligence": {
+      "valeur": 14,
+      "modificateur": 2
+    },
+    "sagesse": {
+      "valeur": 10,
+      "modificateur": 0
+    },
+    "charisme": {
+      "valeur": 8,
+      "modificateur": -1
+    }
   },
   "maitrises": {
     "bonus_maitrise": 2,
     "jets_de_sauvegarde": {
-      "force": { "maitrise": true, "bonus": 5 },
-      "dexterite": { "maitrise": false, "bonus": 2 },
-      "constitution": { "maitrise": true, "bonus": 4 },
-      "intelligence": { "maitrise": false, "bonus": 2 },
-      "sagesse": { "maitrise": false, "bonus": 0 },
-      "charisme": { "maitrise": false, "bonus": -1 }
+      "force": {
+        "maitrise": true,
+        "bonus": 5
+      },
+      "dexterite": {
+        "maitrise": false,
+        "bonus": 2
+      },
+      "constitution": {
+        "maitrise": true,
+        "bonus": 4
+      },
+      "intelligence": {
+        "maitrise": false,
+        "bonus": 2
+      },
+      "sagesse": {
+        "maitrise": false,
+        "bonus": 0
+      },
+      "charisme": {
+        "maitrise": false,
+        "bonus": -1
+      }
     },
     "competences": {
-      "athletisme": { "carac": "force", "maitrise": true, "bonus": 5 },
-      "acrobaties": { "carac": "dexterite", "maitrise": false, "bonus": 2 },
-      "discretion": { "carac": "dexterite", "maitrise": false, "bonus": 2 },
-      "escamotage": { "carac": "dexterite", "maitrise": false, "bonus": 2 },
-      "arcanes": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
-      "histoire": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
-      "investigation": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
-      "nature": { "carac": "intelligence", "maitrise": true, "bonus": 4 },
-      "religion": { "carac": "intelligence", "maitrise": false, "bonus": 2 },
-      "dressage": { "carac": "sagesse", "maitrise": true, "bonus": 2 },
-      "intuition": { "carac": "sagesse", "maitrise": false, "bonus": 0 },
-      "medecine": { "carac": "sagesse", "maitrise": false, "bonus": 0 },
-      "perception": { "carac": "sagesse", "maitrise": false, "bonus": 0 },
-      "survie": { "carac": "sagesse", "maitrise": true, "bonus": 2 },
-      "intimidation": { "carac": "charisme", "maitrise": true, "bonus": 1 },
-      "persuasion": { "carac": "charisme", "maitrise": false, "bonus": -1 },
-      "representation": { "carac": "charisme", "maitrise": false, "bonus": -1 },
-      "tromperie": { "carac": "charisme", "maitrise": false, "bonus": -1 }
+      "athletisme": {
+        "carac": "force",
+        "maitrise": true,
+        "bonus": 5
+      },
+      "acrobaties": {
+        "carac": "dexterite",
+        "maitrise": false,
+        "bonus": 2
+      },
+      "discretion": {
+        "carac": "dexterite",
+        "maitrise": false,
+        "bonus": 2
+      },
+      "escamotage": {
+        "carac": "dexterite",
+        "maitrise": false,
+        "bonus": 2
+      },
+      "arcanes": {
+        "carac": "intelligence",
+        "maitrise": false,
+        "bonus": 2
+      },
+      "histoire": {
+        "carac": "intelligence",
+        "maitrise": false,
+        "bonus": 2
+      },
+      "investigation": {
+        "carac": "intelligence",
+        "maitrise": false,
+        "bonus": 2
+      },
+      "nature": {
+        "carac": "intelligence",
+        "maitrise": true,
+        "bonus": 4
+      },
+      "religion": {
+        "carac": "intelligence",
+        "maitrise": false,
+        "bonus": 2
+      },
+      "dressage": {
+        "carac": "sagesse",
+        "maitrise": true,
+        "bonus": 2
+      },
+      "intuition": {
+        "carac": "sagesse",
+        "maitrise": false,
+        "bonus": 0
+      },
+      "medecine": {
+        "carac": "sagesse",
+        "maitrise": false,
+        "bonus": 0
+      },
+      "perception": {
+        "carac": "sagesse",
+        "maitrise": false,
+        "bonus": 0
+      },
+      "survie": {
+        "carac": "sagesse",
+        "maitrise": true,
+        "bonus": 2
+      },
+      "intimidation": {
+        "carac": "charisme",
+        "maitrise": true,
+        "bonus": 1
+      },
+      "persuasion": {
+        "carac": "charisme",
+        "maitrise": false,
+        "bonus": -1
+      },
+      "representation": {
+        "carac": "charisme",
+        "maitrise": false,
+        "bonus": -1
+      },
+      "tromperie": {
+        "carac": "charisme",
+        "maitrise": false,
+        "bonus": -1
+      }
     },
-    "armures": ["Légères", "Intermédiaires", "Boucliers"],
-    "armes": ["Courantes", "De guerre"],
-    "bottes_d_arme": ["Renversement", "Sape", "Écorchure"],
-    "outils": ["Outils de charpentier"],
-    "langues": ["Commun", "Langue des signes", "Draconique"]
+    "armures": [
+      "Légères",
+      "Intermédiaires",
+      "Boucliers"
+    ],
+    "armes": [
+      "Courantes",
+      "De guerre"
+    ],
+    "bottes_d_arme": [
+      "Renversement",
+      "Sape",
+      "Écorchure"
+    ],
+    "outils": [
+      "Outils de charpentier"
+    ],
+    "langues": [
+      "Commun",
+      "Langue des signes",
+      "Draconique"
+    ]
   },
   "traits": {
     "traits_d_espece": [
-      { "nom": "Humanoïde", "description": "Taille M (2,15 m)." },
-      { "nom": "Ascendance draconique", "description": "Rouge : feu." },
-      { "nom": "Résistance aux dégâts", "description": "Résistance aux dégâts de feu." },
+      {
+        "nom": "Humanoïde",
+        "description": "Taille M (2,15 m)."
+      },
+      {
+        "nom": "Ascendance draconique",
+        "description": "Rouge : feu."
+      },
+      {
+        "nom": "Résistance aux dégâts",
+        "description": "Résistance aux dégâts de feu."
+      },
       {
         "nom": "Souffle",
         "description": "Remplace une attaque de l'action Attaque : cône de 4,50 m ou ligne de 9 m x 1,50 m. JS de Dextérité DD 12 : 1d10 feu, moitié si réussi. 2d10 au niveau 5.",
         "utilisations_max": 2,
         "recharge": "repos long"
       },
-      { "nom": "Vision dans le noir", "description": "18 m." }
+      {
+        "nom": "Vision dans le noir",
+        "description": "18 m."
+      }
     ],
     "aptitudes_de_classe": [
       {
@@ -80,7 +217,20 @@
         "type_action": "Action bonus",
         "utilisations_max": 3,
         "recharge": "1 au repos court, toutes au repos long",
-        "description": "Si vous ne portez pas d'armure lourde. Résistance aux dégâts contondants, perforants et tranchants. +2 aux dégâts des attaques basées sur la Force (arme ou mains nues). Avantage aux tests et jets de sauvegarde de Force. Ni concentration ni sorts. Dure jusqu'à la fin de votre tour suivant ; se termine si vous enfilez une armure lourde ou subissez l'état Neutralisé. Prolongée d'un round si, à votre tour, vous effectuez un jet d'attaque contre un ennemi, contraignez un ennemi à un jet de sauvegarde ou entreprenez une action bonus pour la prolonger. 10 minutes maximum."
+        "description": "Si vous ne portez pas d'armure lourde. Résistance aux dégâts contondants, perforants et tranchants. +2 aux dégâts des attaques basées sur la Force (arme ou mains nues). Avantage aux tests et jets de sauvegarde de Force. Ni concentration ni sorts. Dure jusqu'à la fin de votre tour suivant ; se termine si vous enfilez une armure lourde ou subissez l'état Neutralisé. Prolongée d'un round si, à votre tour, vous effectuez un jet d'attaque contre un ennemi, contraignez un ennemi à un jet de sauvegarde ou entreprenez une action bonus pour la prolonger. 10 minutes maximum.",
+        "details": {
+          "degats_de_rage": "Bonus aux dégâts des attaques basées sur la Force (arme ou mains nues), qui augmente avec le niveau de barbare (+2 actuellement).",
+          "avantage_en_force": "Avantage aux tests de Force et aux jets de sauvegarde de Force.",
+          "ni_concentration_ni_sorts": "Impossible de maintenir sa Concentration ou de lancer des sorts.",
+          "duree": "Persiste jusqu'à la fin du tour suivant ; se termine prématurément si on enfile une armure lourde ou subit l'état Neutralisé.",
+          "prolongation": [
+            "Effectuer un jet d'attaque contre un ennemi",
+            "Contraindre un ennemi à effectuer un jet de sauvegarde",
+            "Entreprendre une action bonus pour prolonger la Rage"
+          ],
+          "prolongation_effet": "Si la Rage est encore active au tour suivant, elle peut être prolongée d'un round par l'une de ces actions. Chaque prolongation dure jusqu'à la fin du tour suivant.",
+          "duree_maximale": "10 minutes"
+        }
       },
       {
         "nom": "Défense sans armure",
