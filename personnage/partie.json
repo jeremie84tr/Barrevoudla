@@ -14,14 +14,23 @@
     "pv_max": 53,
     "pv_actuels": 23,
     "pv_temporaires": 0,
-    "des_de_vie": { "type": "d12", "total": 4, "restants": null },
+    "des_de_vie": {
+      "type": "d12",
+      "total": 4,
+      "restants": null
+    },
     "classe_armure": 14,
     "initiative": 2,
     "vitesse": "9 m",
     "inspiration": false,
-    "jets_contre_la_mort": { "reussites": 0, "echecs": 0 },
+    "jets_contre_la_mort": {
+      "reussites": 0,
+      "echecs": 0
+    },
     "etats": [],
-    "resistances": ["feu"],
+    "resistances": [
+      "feu"
+    ],
     "immunites": [],
     "vulnerabilites": []
   },
@@ -30,14 +39,26 @@
     "vision": "Vision dans le noir 18 m"
   },
   "attaques": [
-    { "nom": "Attaque basée sur la Force", "bonus_attaque": 5, "degats": "+3", "type_degats": "", "notes": "+2 dégâts supplémentaires en Rage (inclus : +3 de base sans Rage)" },
-    { "nom": "Attaque basée sur la Dextérité", "bonus_attaque": 4, "degats": "+2", "type_degats": "", "notes": "" },
+    {
+      "nom": "Attaque basée sur la Force",
+      "bonus_attaque": 5,
+      "degats": "+3",
+      "type_degats": "",
+      "notes": "+2 dégâts supplémentaires en Rage (inclus : +3 de base sans Rage)"
+    },
+    {
+      "nom": "Attaque basée sur la Dextérité",
+      "bonus_attaque": 4,
+      "degats": "+2",
+      "type_degats": "",
+      "notes": ""
+    },
     {
       "nom": "Aubéclat (épée légendaire)",
       "bonus_attaque": 5,
       "degats": "2d6+3",
       "type_degats": "contondants",
-      "notes": "Compte comme un Maillet d'armes. Cristal bleu allumé : +1d4 radiants."
+      "notes": "Maillet d'armes, à deux mains, Lourde, légendaire. 10 kg. Cristal bleu allumé : +1d4 radiants."
     },
     {
       "nom": "Souffle",
@@ -51,36 +72,149 @@
     "dd_sauvegarde": null,
     "bonus_attaque_sort": null,
     "emplacements": {
-      "1": { "max": 0, "utilises": 0 },
-      "2": { "max": 0, "utilises": 0 },
-      "3": { "max": 0, "utilises": 0 },
-      "4": { "max": 0, "utilises": 0 },
-      "5": { "max": 0, "utilises": 0 },
-      "6": { "max": 0, "utilises": 0 },
-      "7": { "max": 0, "utilises": 0 },
-      "8": { "max": 0, "utilises": 0 },
-      "9": { "max": 0, "utilises": 0 }
+      "1": {
+        "max": 0,
+        "utilises": 0
+      },
+      "2": {
+        "max": 0,
+        "utilises": 0
+      },
+      "3": {
+        "max": 0,
+        "utilises": 0
+      },
+      "4": {
+        "max": 0,
+        "utilises": 0
+      },
+      "5": {
+        "max": 0,
+        "utilises": 0
+      },
+      "6": {
+        "max": 0,
+        "utilises": 0
+      },
+      "7": {
+        "max": 0,
+        "utilises": 0
+      },
+      "8": {
+        "max": 0,
+        "utilises": 0
+      },
+      "9": {
+        "max": 0,
+        "utilises": 0
+      }
     },
     "tours_de_magie": [],
     "sorts_connus_prepares": []
   },
   "ressources": [
-    { "nom": "Rage", "max": 3, "cases_cochees": 1, "restant": null, "recharge": "1 au repos court, toutes au repos long", "notes": "1 case cochée sur la fiche (à confirmer : utilisée ou non)" },
-    { "nom": "Souffle", "max": 2, "cases_cochees": 1, "restant": null, "recharge": "repos long", "notes": "1 case cochée sur la fiche (à confirmer)" },
-    { "nom": "Conscience magique", "max": 2, "cases_cochees": 0, "restant": 2, "recharge": "repos long", "notes": "" }
+    {
+      "nom": "Rage",
+      "max": 3,
+      "cases_cochees": 1,
+      "restant": null,
+      "recharge": "1 au repos court, toutes au repos long",
+      "notes": "1 case cochée sur la fiche (à confirmer : utilisée ou non)"
+    },
+    {
+      "nom": "Souffle",
+      "max": 2,
+      "cases_cochees": 1,
+      "restant": null,
+      "recharge": "repos long",
+      "notes": "1 case cochée sur la fiche (à confirmer)"
+    },
+    {
+      "nom": "Conscience magique",
+      "max": 2,
+      "cases_cochees": 0,
+      "restant": 2,
+      "recharge": "repos long",
+      "notes": ""
+    },
+    {
+      "nom": "Le maudit bâton",
+      "max": 2,
+      "cases_cochees": 0,
+      "restant": null,
+      "recharge": "2 à l'aube",
+      "notes": "Charges actuelles à confirmer"
+    }
   ],
   "equipement": {
-    "equipe": ["Aubéclat (épée légendaire, comptée comme Maillet d'armes)"],
-    "inventaire": [],
-    "objets_magiques": ["Aubéclat"],
+    "equipe": [],
+    "inventaire": [
+      {
+        "nom": "Aubéclat (épée dans son rocher, légèrement éveillée)",
+        "type": "Arme : Maillet d'armes",
+        "rarete": "Légendaire",
+        "degats": "2d6 contondants",
+        "proprietes": [
+          "À deux mains",
+          "Lourde"
+        ],
+        "masse": "10 kg",
+        "description": "Ajoute 1d4 dégâts radiants. 10 cristaux sont visibles sur le pommeau, l'un d'eux scintille d'une lueur bleue (10 petits cristaux, l'un d'eux scintille très légèrement)."
+      },
+      {
+        "nom": "Anneau de saut",
+        "type": "Anneau",
+        "rarete": "Peu commun",
+        "lien_requis": true,
+        "valeur": "390 po",
+        "description": "Porté, permet de lancer le sort Saut depuis l'anneau par une action bonus, à volonté, mais uniquement sur soi-même."
+      },
+      {
+        "nom": "Le maudit bâton",
+        "type": "Sceptre",
+        "rarete": "Très rare",
+        "poids": "5 kg",
+        "valeur": "7500 po",
+        "charges": {
+          "max": 2,
+          "actuelles": null,
+          "recuperation": "2 à l'aube"
+        },
+        "description": "Au prix d'une action et d'une charge, permet de ranimer le cadavre d'une créature dont le facteur de puissance est inférieur ou égal au niveau du lanceur moins 2. La réanimation dure une heure maximum. Le lanceur ne peut pas contrôler plus de 2 morts-vivants ainsi ranimés simultanément."
+      },
+      {
+        "nom": "Torche",
+        "valeur": "1 pc",
+        "description": "Brûle 1 heure, lumière vive sur 6 m et lumière faible sur 6 m de plus. Peut servir d'arme courante de corps à corps : 1 dégât de feu si touche."
+      },
+      {
+        "nom": "Sac de couchage",
+        "valeur": "1 po",
+        "description": "Permet à une créature de taille Petite ou Moyenne de dormir. Réussite automatique aux jets de sauvegarde contre le froid extrême."
+      }
+    ],
+    "objets_magiques": [
+      "Aubéclat",
+      "Anneau de saut",
+      "Le maudit bâton"
+    ],
     "syntonise": [],
     "capacite_speciale": {
       "nom": "Épée légendaire (Aubéclat)",
       "description": "L'épée ne reconnaît pas encore Barrevoudla comme son champion et refuse de se libérer. Il devra progressivement gagner l'intérêt de l'épée s'il veut un jour pouvoir la brandir sans s'encombrer du rocher qui va avec.",
-      "aptitudes_debloquees": ["Un cristal bleu allumé : +1d4 dégâts radiants."]
+      "aptitudes_debloquees": [
+        "Un cristal bleu allumé : +1d4 dégâts radiants."
+      ],
+      "note": "Statut anneau de saut (lien/syntonisation) à confirmer."
     }
   },
-  "monnaie": { "pc": 0, "pa": 0, "pe": 0, "po": 0, "pp": 0 },
+  "monnaie": {
+    "pc": 0,
+    "pa": 0,
+    "pe": 0,
+    "po": 0,
+    "pp": 0
+  },
   "notes_de_partie": {
     "quetes": [],
     "pnj_rencontres": [],
