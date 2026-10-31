@@ -13,7 +13,7 @@ Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un c
 3. **Premier combat** : à une intersection (passage à gué ou crêtes), un combat s'engage. Il est interrompu par une créature géante, **l'Arpenteur nocturne**, qui pointe Americ du doigt : il meurt.
 4. **Fuite** : le groupe fuit par les crêtes, franchit un gouffre et sème la créature.
 5. **Village délabré** : le groupe arrive au village et combat une nouvelle créature de grande taille, jamais rencontrée. Barrevoudla est en Rage (2ᵉ combat), PV à 23.
-6. **La bague** : la créature est achevée. Gromli, un nain du groupe, offre à Barrevoudla une alliance récupérée sur elle, pour sa harpie. Elle porte la même bague qu'Alesto : ce serait **Maelis**, son épouse.
+6. **La bague** : la créature est achevée. Gromli, un nain du groupe, offre à Barrevoudla une alliance récupérée sur elle, pour sa harpie. Elle porte la même bague qu'Alesto : c'est **Maelis**, son épouse et la mère d'Aube : à l'emplacement de la créature, on retrouve son corps, un bras manquant (identité confirmée).
 7. **Repos** : Barrevoudla dépense ses 4d12 de dés de vie. Il reste à 23 PV.
 8. **Le capitaine** : réveillés par des bruits dans la taverne, le groupe voit un homme à la lanterne qui toque. C'est le **capitaine Vonn**, qui les emmène au fort gardé par des squelettes en affirmant que c'est un endroit sûr.
 9. **Alesto** : il est retrouvé mort dans la chambre d'enfant de sa fille de 7 ans, **Aube**, disparue. Il était parti il y a plus de 2 ans.
@@ -27,7 +27,7 @@ Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un c
 |---|---|---|
 | Americ | Paladin, compagnon d'expédition | Mort (pointé du doigt par l'Arpenteur nocturne) |
 | Alesto | Second de l'équipage du bateau | Mort |
-| Maelis | Épouse d'Alesto (hypothèse) | Probablement la créature du village, achevée |
+| Maelis | Épouse d'Alesto, mère d'Aube | Morte : c'était la créature du village (confirmé) |
 | Aube | Fille d'Alesto, 7 ans | Libérée du miroir (cage ouverte par Gromli) |
 | Capitaine Vonn | Capitaine du fort | S'est évaporé |
 | Ysambre | Guérisseuse | Bannie |

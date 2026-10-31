@@ -214,7 +214,7 @@
       {
         "nom": "Alliance",
         "type": "Bijou",
-        "description": "Récupérée sur la créature du village par Gromli, qui l'a offerte à Barrevoudla pour qu'il l'offre à sa harpie. Même bague qu'Alesto : elle appartenait probablement à Maelis, son épouse."
+        "description": "Récupérée sur la créature du village par Gromli, qui l'a offerte à Barrevoudla pour qu'il l'offre à sa harpie. Même bague qu'Alesto : elle appartenait à Maelis, son épouse (confirmé)."
       }
     ],
     "objets_magiques": [
@@ -260,8 +260,8 @@
         "statut": "Mort",
         "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Sa mort n'est pas liée à la créature géante (l'Arpenteur nocturne) qui a tué Americ. Portait la même bague que la créature du village.",
         "famille": {
-          "epouse": "Maelis (hypothèse : la créature du village)",
-          "fille": "Aube (7 ans, disparue)"
+          "epouse": "Maelis (confirmée : la créature du village)",
+          "fille": "Aube (7 ans)"
         }
       },
       {
@@ -298,9 +298,9 @@
       },
       {
         "nom": "Maelis",
-        "role": "Probable épouse d'Alesto",
-        "statut": "Hypothèse : la créature du village, achevée par le groupe",
-        "notes": "La créature du village portait la même bague qu'Alesto (l'alliance donnée par Gromli à Barrevoudla)."
+        "role": "Épouse d'Alesto, mère d'Aube",
+        "statut": "Morte : c'était la créature du village (confirmé)",
+        "notes": "Retrouvée à l'emplacement de la créature du village, un bras manquant : identité confirmée. Elle portait la même bague qu'Alesto (l'alliance donnée par Gromli à Barrevoudla)."
       },
       {
         "nom": "Aube",
@@ -354,7 +354,7 @@
           "Le groupe dort dans une taverne du village. Réveillés par des bruits, ils voient un homme à la lanterne qui toque à l'entrée de la taverne.",
           "L'homme à la lanterne emmène le groupe au fort, gardé par des squelettes. Il se présente comme capitaine et affirme que c'est un endroit sûr.",
           "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans.",
-          "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maelis, son épouse. Leur fille s'appelle Aube.",
+          "À l'emplacement de la créature du village, on retrouve la mère d'Aube, Maelis, épouse d'Alesto, un bras manquant : identité confirmée (elle portait la même bague qu'Alesto). Leur fille s'appelle Aube.",
           "L'homme à la lanterne est le capitaine Vonn. Il a banni Ysambre, une guérisseuse qui a fait revivre les morts sur l'île.",
           "Le capitaine Vonn (entièrement squelettique) est convaincu de mener le groupe au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. Gromli ouvre la cage et Aube est convaincue d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde.",
           "Le capitaine Vonn s'évapore. Le groupe rentre au camp, puis au bateau.",
