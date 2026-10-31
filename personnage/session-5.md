@@ -1,10 +1,15 @@
-# Session 4 : Halloween sur l'île de Corvelune
+# Session 5 : Halloween sur l'île de Corvelune
 
 **MJ** : Nicolas Urban
 **Personnage** : Barrevoudla, Barbare (Magie sauvage) niveau 4, Drakéide rouge
 
-## Rappel des sessions 1 à 3
-Sur l'île de départ (le tutoriel), Barrevoudla protège une harpie lors d'un combat (session 2) et lui déclare son amour. Elle l'aide ensuite à obtenir des renseignements sur le château des gobelins. Pour gagner sa confiance, il sauve 2 œufs de harpie. Les gobelins sont vaincus, le groupe prend le bateau. La harpie ne voyage pas avec le groupe : elle apparaît lors d'événements ponctuels.
+## Rappel du tutoriel (sessions 1 à 4)
+- **Session 1** : échoués sur une île, Barrevoudla et le groupe sont emprisonnés par des gobelins. Ils s'enfuient et trouvent une carte : deux camps de gobelins à l'est et à l'ouest, un fort au nord, au centre une forêt et des massifs montagneux qui semblent dangereux. Ils partent vers le camp de l'est et combattent.
+- **Session 2** : direction l'ouest en passant par le centre, découverte des harpies. Lors d'un combat contre elles, une créature attaque l'une des harpies ; Barrevoudla la protège et lui déclare son amour.
+- **Session 3** : campement de l'ouest. La harpie l'aide à obtenir des renseignements ; pour gagner sa confiance, il sauve 2 œufs de harpie.
+- **Session 4** : le fort du nord. Les gobelins sont vaincus et le groupe prend le bateau (session exacte de ce dernier épisode à confirmer).
+
+La harpie ne voyage pas avec le groupe : elle apparaît lors d'événements ponctuels.
 
 ## Déroulé
 
