@@ -13,7 +13,7 @@
   },
   "combat": {
     "pv_max": 53,
-    "pv_actuels": 37,
+    "pv_actuels": 23,
     "pv_temporaires": 0,
     "des_de_vie": {
       "type": "d12",
