@@ -280,7 +280,7 @@
           "Premier combat à une intersection proposant deux chemins : passage à gué ou crêtes.",
           "Combat arrêté subitement par une créature géante qui pointe Alesto du doigt : il meurt.",
           "Fuite par la crête, franchissement d'un gouffre, la créature est semée.",
-          "Arrivée au village ; la créature du combat est aperçue et un nouveau combat commence."
+          "Arrivée au village ; on aperçoit la créature du premier combat (pas la créature géante qui a tué Alesto) et un nouveau combat commence contre elle."
         ]
       }
     ]
@@ -288,7 +288,7 @@
   "situation_actuelle": {
     "en_combat": true,
     "lieu": "Village délabré de Corvelune",
-    "adversaire": "Une créature de grande taille",
+    "adversaire": "Créature de grande taille (celle du premier combat à l'intersection, distincte de la créature géante qui a tué Alesto)",
     "notes": "Rage en cours, deuxième combat avec la Rage."
   }
 }
