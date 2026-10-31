@@ -250,13 +250,13 @@
       {
         "nom": "Americ",
         "role": "Paladin, compagnon d'expédition",
-        "statut": "Mort (désigné du doigt par la créature géante)"
+        "statut": "Mort (désigné du doigt par la créature géante (l'Arpenteur nocturne))"
       },
       {
         "nom": "Alesto",
         "role": "Second de l'équipage du bateau",
         "statut": "Mort",
-        "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Sa mort n'est pas liée à la créature géante qui a tué Americ. Portait la même bague que la créature du village.",
+        "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Sa mort n'est pas liée à la créature géante (l'Arpenteur nocturne) qui a tué Americ. Portait la même bague que la créature du village.",
         "famille": {
           "epouse": "Maelis (hypothèse : la créature du village)",
           "fille": "Aube (7 ans, disparue)"
@@ -343,7 +343,7 @@
           "Arrivés en bateau sur l'île de Corvelune, expédition avec le paladin Americ ; Alesto est le second de l'équipage du bateau.",
           "Entrés dans la forêt ; en regardant derrière, le bateau et la base semblent avoir disparu.",
           "Premier combat à une intersection proposant deux chemins : passage à gué ou crêtes.",
-          "Combat arrêté subitement par une créature géante qui pointe Americ, le paladin, du doigt : il meurt.",
+          "Combat arrêté subitement par une créature géante (l'Arpenteur nocturne) qui pointe Americ, le paladin, du doigt : il meurt.",
           "Fuite par la crête, franchissement d'un gouffre, la créature est semée.",
           "Arrivée au village ; une nouvelle créature de grande taille, jamais rencontrée (ni à l'intersection ni la géante qui a tué Americ), est aperçue et le combat commence.",
           "La créature du village est achevée. Gromli, un camarade, offre à Barrevoudla une alliance récupérée sur elle, pour qu'il l'offre à sa harpie.",
@@ -353,6 +353,13 @@
           "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maelis, son épouse. Leur fille s'appelle Aube.",
           "L'homme à la lanterne est le capitaine Vonn. Il a banni Ysambre, une guérisseuse qui a fait revivre les morts sur l'île."
         ]
+      }
+    ],
+    "creatures": [
+      {
+        "nom": "L'Arpenteur nocturne",
+        "description": "Créature géante qui a pointé Americ du doigt, le tuant. Semée par le groupe après la fuite par les crêtes et le franchissement du gouffre.",
+        "statut": "En liberté"
       }
     ]
   },
