@@ -191,7 +191,14 @@
           "actuelles": 2,
           "recuperation": "2 à l'aube"
         },
-        "description": "Au prix d'une action et d'une charge, permet de ranimer le cadavre d'une créature dont le facteur de puissance est inférieur ou égal au niveau du lanceur moins 2. La réanimation dure une heure maximum. Le lanceur ne peut pas contrôler plus de 2 morts-vivants ainsi ranimés simultanément."
+        "description": "Au prix d'une action et d'une charge, permet de ranimer le cadavre d'une créature dont le facteur de puissance est inférieur ou égal au niveau du lanceur moins 2. La réanimation dure une heure maximum. Le lanceur ne peut pas contrôler plus de 2 morts-vivants ainsi ranimés simultanément.",
+        "controle_mort_vivant": "Le mort-vivant ainsi ranimé est sous le contrôle du lanceur. Cependant, après le premier tour de la créature, le lanceur doit réussir un JS d'Intelligence DD 13. Le DD augmente de 1 à chaque tour de la créature. En cas d'échec, la créature échappe au contrôle du lanceur et se met à attaquer tous les êtres vivants qu'elle perçoit.",
+        "js_controle": {
+          "caracteristique": "Intelligence",
+          "dd_initial": 13,
+          "augmentation_par_tour": 1,
+          "bonus_barrevoudla": 2
+        }
       },
       {
         "nom": "Torche",
