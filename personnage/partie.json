@@ -250,6 +250,7 @@
       }
     ],
     "lieux": [
+      "Île de départ (sessions 1 à 3, tutoriel) : château des gobelins, nid des harpies",
       "Île de Corvelune : arrivée en bateau, base visible au départ",
       "Forêt : en regardant derrière, le bateau et la base semblent avoir disparu",
       "Intersection à deux chemins : passage à gué ou crêtes (choix : les crêtes)",
@@ -264,7 +265,7 @@
       {
         "session": "1 à 3",
         "evenements": [
-          "Aventure sur l'île du château des gobelins (île à préciser : non indiquée comme étant Corvelune).",
+          "Île de départ (tutoriel / commencement de l'aventure) avec le château des gobelins, distincte de Corvelune. Nom de l'île non indiqué.",
           "Session 2, combat contre des harpies : une créature attaque l'une des harpies en même temps ; Barrevoudla protège la harpie et lui déclare son amour.",
           "Session 3 : la harpie l'aide à obtenir des renseignements sur le château des gobelins. Pour gagner sa confiance, Barrevoudla sauve des œufs de harpie (2 sauvés).",
           "Les gobelins sont vaincus, le groupe prend le bateau ; la harpie semble les accompagner."
