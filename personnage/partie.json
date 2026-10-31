@@ -1,8 +1,8 @@
 {
   "campagne": {
     "nom": "Halloween sur l'île de Corvelune",
-    "mj": "",
-    "session": 0,
+    "mj": "Nicolas Urban",
+    "session": 4,
     "date_maj": "2026-10-31"
   },
   "niveau": {
@@ -27,12 +27,18 @@
       "reussites": 0,
       "echecs": 0
     },
-    "etats": [],
+    "etats": [
+      "Rage active"
+    ],
     "resistances": [
-      "feu"
+      "feu",
+      "contondants (Rage)",
+      "perforants (Rage)",
+      "tranchants (Rage)"
     ],
     "immunites": [],
-    "vulnerabilites": []
+    "vulnerabilites": [],
+    "en_combat": true
   },
   "sens": {
     "perception_passive": 10,
@@ -116,18 +122,19 @@
     {
       "nom": "Rage",
       "max": 3,
-      "cases_cochees": 1,
-      "restant": null,
+      "cases_cochees": 2,
+      "restant": 1,
       "recharge": "1 au repos court, toutes au repos long",
-      "notes": "1 case cochée sur la fiche (à confirmer : utilisée ou non)"
+      "notes": "Rage en cours (2e combat), 1 charge restante",
+      "en_cours": true
     },
     {
       "nom": "Souffle",
       "max": 2,
       "cases_cochees": 1,
-      "restant": null,
+      "restant": 1,
       "recharge": "repos long",
-      "notes": "1 case cochée sur la fiche (à confirmer)"
+      "notes": "1 charge restante"
     },
     {
       "nom": "Conscience magique",
@@ -205,7 +212,9 @@
       "Le maudit bâton"
     ],
     "syntonise": [
-      "Anneau de saut"
+      "Aubéclat",
+      "Anneau de saut",
+      "Le maudit bâton"
     ],
     "capacite_speciale": {
       "nom": "Épée légendaire (Aubéclat)",
@@ -230,5 +239,11 @@
       "Surdité : en cas de bruit fort, JS de CON (DD selon l'intensité, à la discrétion du MJ). En cas d'échec, étourdi et perd l'ouïe pendant 5 minutes.",
       "Aubéclat (coincée dans son rocher) compte comme un Maillet d'armes (2d6 contondants)."
     ]
+  },
+  "situation_actuelle": {
+    "en_combat": true,
+    "lieu": "Village délabré de Corvelune",
+    "adversaire": "Une créature de grande taille",
+    "notes": "Rage en cours, deuxième combat avec la Rage."
   }
 }
