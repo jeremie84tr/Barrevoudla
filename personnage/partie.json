@@ -292,7 +292,7 @@
       {
         "nom": "Capitaine Vonn",
         "role": "Capitaine, chef du fort",
-        "statut": "Au fort, avec le groupe",
+        "statut": "S'est évaporé après la libération d'Aube",
         "notes": "L'homme à la lanterne qui a toqué à la taverne. A emmené le groupe au fort gardé par des squelettes en affirmant que c'est un endroit sûr (à vérifier). A banni Ysambre. Entièrement squelettique ; convaincu par le groupe de les emmener au lieu du rituel d'Ysambre."
       },
       {
@@ -322,7 +322,8 @@
       "Village délabré de Corvelune (lieu du combat actuel)",
       "Taverne du village (le groupe y dort)",
       "Fort gardé par des squelettes (le capitaine affirme que c'est sûr)",
-      "Lieu du rituel d'Ysambre : miroir dans lequel Aube était enfermée"
+      "Lieu du rituel d'Ysambre : miroir dans lequel Aube était enfermée",
+      "Camp et bateau (retour du groupe)"
     ],
     "notes": [
       "Surdité : en cas de bruit fort, JS de CON (DD selon l'intensité, à la discrétion du MJ). En cas d'échec, étourdi et perd l'ouïe pendant 5 minutes.",
@@ -354,7 +355,8 @@
           "Alesto est retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans.",
           "Déduction : la créature du village portait la même bague qu'Alesto ; ce serait Maelis, son épouse. Leur fille s'appelle Aube.",
           "L'homme à la lanterne est le capitaine Vonn. Il a banni Ysambre, une guérisseuse qui a fait revivre les morts sur l'île.",
-          "Le capitaine Vonn (entièrement squelettique) est convaincu de mener le groupe au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. Barrevoudla ouvre la cage et la convainc d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde."
+          "Le capitaine Vonn (entièrement squelettique) est convaincu de mener le groupe au lieu du rituel d'Ysambre. Aube est dans une cage dans le reflet du miroir. Barrevoudla ouvre la cage et la convainc d'en sortir. Les ténèbres sont aspirées par le miroir et la lumière réapparaît dans le monde.",
+          "Le capitaine Vonn s'évapore. Le groupe rentre au camp, puis au bateau."
         ]
       }
     ],
@@ -368,8 +370,8 @@
   },
   "situation_actuelle": {
     "en_combat": false,
-    "lieu": "Lieu du rituel d'Ysambre (miroir)",
+    "lieu": "Camp, puis bateau",
     "adversaire": "Créature de grande taille du village : achevée",
-    "notes": "Aube est libérée, les ténèbres sont aspirées par le miroir, la lumière revient sur le monde."
+    "notes": "Le capitaine s'est évaporé. Le groupe rentre au camp et au bateau."
   }
 }
