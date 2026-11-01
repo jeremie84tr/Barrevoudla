@@ -39,3 +39,10 @@ schema/             JSON Schema de chaque fichier de données
 ## Montée de niveau
 
 Modifier `niveau`, puis recalculer à la main `bonus_maitrise`, les bonus de jets de sauvegarde, `pv_max` et les ressources ; `verifier.py` signale les incohérences.
+
+## Branches et tags
+
+- `main` : branche de référence, état à jour de la fiche.
+- Tags `session-NN` (annotés) : état de la fiche à la fin de chaque session. À poser une fois la mise à jour committée :
+  `git tag -a session-06 -m "Fin de la session 6" && git push origin session-06`.
+- Les sessions 1 à 4 (tutoriel) n'ont pas de tag : l'historique git ne contient pas leur état.
