@@ -15,10 +15,13 @@ campagne/
 sessions/
   session-NN.md     récit de chaque session
 scripts/
+  generer_fiche.py  génère fiche.md (fiche lisible) depuis les JSON
   verifier.py       valide les JSON (schémas) et la cohérence des valeurs dérivées
 schema/             JSON Schema de chaque fichier de données
 .github/workflows/  GitHub Action qui lance verifier.py à chaque push et PR
 ```
+
+`fiche.md` (à la racine) est la fiche lisible, **générée** : ne pas la modifier à la main.
 
 ## Règle d'or : une seule source de vérité
 
@@ -31,7 +34,7 @@ schema/             JSON Schema de chaque fichier de données
 1. Créer `sessions/session-NN.md` (copier le précédent comme modèle).
 2. Mettre à jour `campagne/campagne.json` (`session`, `date_maj`, `statut`, `situation_actuelle`) et `campagne/pnj.json`.
 3. Mettre à jour `personnage/etat.json` (PV, ressources) et `inventaire.json`.
-4. Lancer `pip install jsonschema && python3 scripts/verifier.py` avant de committer (la CI le fait aussi).
+4. Lancer `pip install jsonschema && python3 scripts/verifier.py`, puis `python3 scripts/generer_fiche.py` pour régénérer `fiche.md`, et committer le tout (la CI vérifie les deux).
 
 ## Montée de niveau
 
