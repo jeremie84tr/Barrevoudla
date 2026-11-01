@@ -1,10 +1,20 @@
 name: Release de session
 
-# Un tag session-NN publie une release avec le rapport de session en PDF.
+# Publie une release avec le rapport de session en PDF imprimable.
+# Deux déclencheurs :
+#  - push d'un tag session-NN ;
+#  - lancement manuel (Actions > Release de session > Run workflow) avec le numéro de session :
+#    le tag session-NN est alors créé sur la branche choisie (main par défaut).
 on:
   push:
     tags:
       - "session-[0-9][0-9]"
+  workflow_dispatch:
+    inputs:
+      session:
+        description: "Numéro de la session (ex : 5 ou 05)"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -18,14 +28,34 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install markdown weasyprint
+      - name: Déterminer la session
+        id: s
+        env:
+          SAISIE: ${{ github.event.inputs.session }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            n="$SAISIE"
+          else
+            n="${GITHUB_REF_NAME#session-}"
+          fi
+          case "$n" in ''|*[!0-9]*) echo "Numéro de session invalide : '$n'"; exit 1;; esac
+          n="$(printf '%02d' "$((10#$n))")"
+          [ -f "sessions/session-$n.md" ] || { echo "sessions/session-$n.md introuvable"; exit 1; }
+          echo "n=$n" >> "$GITHUB_OUTPUT"
       - name: Générer le PDF
-        run: python3 scripts/generer_pdf.py "${GITHUB_REF_NAME#session-}"
+        run: python3 scripts/generer_pdf.py "${{ steps.s.outputs.n }}"
       - name: Publier la release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          fichier="sessions/${GITHUB_REF_NAME}.md"
-          titre="$(head -n1 "$fichier" | sed 's/^# *//')"
-          gh release create "$GITHUB_REF_NAME" "dist/${GITHUB_REF_NAME}.pdf" \
-            --title "$titre" \
-            --notes "Rapport de la session en PDF imprimable : \`${GITHUB_REF_NAME}.pdf\`."
+          tag="session-${{ steps.s.outputs.n }}"
+          pdf="dist/${tag}.pdf"
+          titre="$(head -n1 "sessions/${tag}.md" | sed 's/^# *//')"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$pdf" --clobber
+          else
+            gh release create "$tag" "$pdf" \
+              --target "$GITHUB_SHA" \
+              --title "$titre" \
+              --notes "Rapport de la session en PDF imprimable : \`${tag}.pdf\`."
+          fi

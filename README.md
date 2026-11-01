@@ -47,5 +47,6 @@ Modifier `niveau`, puis recalculer à la main `bonus_maitrise`, les bonus de jet
 - Tags `session-NN` (annotés) : état de la fiche à la fin de chaque session. À poser une fois la mise à jour committée :
   `git tag -a session-06 -m "Fin de la session 6" && git push origin session-06`.
 - Chaque tag `session-NN` déclenche `.github/workflows/release.yml` : une **release** GitHub est créée avec le rapport `sessions/session-NN.md` en **PDF imprimable** en pièce jointe.
+- **Sans terminal** : sur GitHub, onglet *Actions* → *Release de session* → *Run workflow*, saisir le numéro de la session. Le tag et la release (avec le PDF) sont créés sur la branche choisie.
 - Pour générer le PDF en local : `pip install markdown weasyprint && python3 scripts/generer_pdf.py 6` (sortie dans `dist/`, ignoré par git).
 - Les sessions 1 à 4 (tutoriel) n'ont pas de tag : l'historique git ne contient pas leur état.
