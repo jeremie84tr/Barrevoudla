@@ -1,0 +1,92 @@
+{
+  "equipe": [
+    "Aubéclat (épée dans son rocher, légèrement éveillée)",
+    "Anneau de saut",
+    "Le maudit bâton",
+    "Torche",
+    "Sac de couchage",
+    "Alliance"
+  ],
+  "inventaire": [
+    {
+      "nom": "Aubéclat (épée dans son rocher, légèrement éveillée)",
+      "type": "Arme : Maillet d'armes",
+      "rarete": "Légendaire",
+      "degats": "2d6 contondants",
+      "proprietes": [
+        "À deux mains",
+        "Lourde"
+      ],
+      "masse": "10 kg",
+      "description": "Ajoute 1d4 dégâts radiants. 10 cristaux sont visibles sur le pommeau, l'un d'eux scintille d'une lueur bleue (10 petits cristaux, l'un d'eux scintille très légèrement)."
+    },
+    {
+      "nom": "Anneau de saut",
+      "type": "Anneau",
+      "rarete": "Peu commun",
+      "lien_requis": true,
+      "valeur": "390 po",
+      "description": "Porté, permet de lancer le sort Saut depuis l'anneau par une action bonus, à volonté, mais uniquement sur soi-même."
+    },
+    {
+      "nom": "Le maudit bâton",
+      "type": "Sceptre",
+      "rarete": "Très rare",
+      "poids": "5 kg",
+      "valeur": "7500 po",
+      "charges": {
+        "max": 2,
+        "actuelles": 2,
+        "recuperation": "2 à l'aube"
+      },
+      "description": "Au prix d'une action et d'une charge, permet de ranimer le cadavre d'une créature dont le facteur de puissance est inférieur ou égal au niveau du lanceur moins 2. La réanimation dure une heure maximum. Le lanceur ne peut pas contrôler plus de 2 morts-vivants ainsi ranimés simultanément.",
+      "controle_mort_vivant": "Le mort-vivant ainsi ranimé est sous le contrôle du lanceur. Cependant, après le premier tour de la créature, le lanceur doit réussir un JS d'Intelligence DD 13. Le DD augmente de 1 à chaque tour de la créature. En cas d'échec, la créature échappe au contrôle du lanceur et se met à attaquer tous les êtres vivants qu'elle perçoit.",
+      "js_controle": {
+        "caracteristique": "Intelligence",
+        "dd_initial": 13,
+        "augmentation_par_tour": 1,
+        "bonus_barrevoudla": 2
+      }
+    },
+    {
+      "nom": "Torche",
+      "valeur": "1 pc",
+      "description": "Brûle 1 heure, lumière vive sur 6 m et lumière faible sur 6 m de plus. Peut servir d'arme courante de corps à corps : 1 dégât de feu si touche."
+    },
+    {
+      "nom": "Sac de couchage",
+      "valeur": "1 po",
+      "description": "Permet à une créature de taille Petite ou Moyenne de dormir. Réussite automatique aux jets de sauvegarde contre le froid extrême."
+    },
+    {
+      "nom": "Alliance",
+      "type": "Bijou",
+      "description": "Récupérée sur la créature du village par Gromli, qui l'a offerte à Barrevoudla pour qu'il l'offre à sa harpie. Même bague qu'Alesto : elle appartenait à Maelis, son épouse (confirmé)."
+    }
+  ],
+  "objets_magiques": [
+    "Aubéclat",
+    "Anneau de saut",
+    "Le maudit bâton"
+  ],
+  "syntonise": [
+    "Aubéclat",
+    "Anneau de saut",
+    "Le maudit bâton"
+  ],
+  "capacite_speciale": {
+    "nom": "Épée légendaire (Aubéclat)",
+    "description": "L'épée ne reconnaît pas encore Barrevoudla comme son champion et refuse de se libérer. Il devra progressivement gagner l'intérêt de l'épée s'il veut un jour pouvoir la brandir sans s'encombrer du rocher qui va avec.",
+    "aptitudes_debloquees": [
+      "Un cristal bleu allumé : +1d4 dégâts radiants."
+    ]
+  },
+  "monnaie": {
+    "pc": 0,
+    "pa": 0,
+    "pe": 0,
+    "po": 0,
+    "pp": 0,
+    "note": "Gérée par le MJ pour le moment"
+  }
+}

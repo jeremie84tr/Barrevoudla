@@ -1,0 +1,29 @@
+{
+  "nom": "Halloween sur l'île de Corvelune",
+  "mj": "Nicolas Urban",
+  "session": 5,
+  "date_maj": "2026-10-31",
+  "statut": "Session 5 terminée",
+  "quetes": [
+    "Offrir l'alliance à la harpie",
+    "Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)"
+  ],
+  "lieux": [
+    "Île de départ (sessions 1 à 4, tutoriel) : camps de gobelins à l'est et à l'ouest, fort du nord (château des gobelins), forêt et massifs dangereux au centre, harpies",
+    "Île de Corvelune : arrivée en bateau, base visible au départ",
+    "Forêt : en regardant derrière, le bateau et la base semblent avoir disparu",
+    "Intersection à deux chemins : passage à gué ou crêtes (choix : les crêtes)",
+    "Gouffre franchi pour semer la créature",
+    "Village délabré de Corvelune (lieu du combat actuel)",
+    "Taverne du village (le groupe y dort)",
+    "Fort gardé par des squelettes (le capitaine affirme que c'est sûr)",
+    "Lieu du rituel d'Ysambre : miroir dans lequel Aube était enfermée",
+    "Camp et bateau (retour du groupe)"
+  ],
+  "situation_actuelle": {
+    "en_combat": false,
+    "lieu": "Camp, puis bateau",
+    "adversaire": "Créature de grande taille du village : achevée",
+    "notes": "Fin de la session 5. Le groupe est au camp et au bateau."
+  }
+}

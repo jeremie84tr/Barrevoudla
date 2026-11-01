@@ -1,0 +1,75 @@
+{
+  "pnj": [
+    {
+      "nom": "Americ",
+      "role": "Paladin, compagnon d'expédition",
+      "statut": "Mort (désigné du doigt par la créature géante (l'Arpenteur nocturne))"
+    },
+    {
+      "nom": "Alesto",
+      "role": "Second de l'équipage du bateau",
+      "statut": "Mort",
+      "notes": "Retrouvé mort dans une chambre d'enfant, celle de sa fille de 7 ans, disparue. Il était parti il y a plus de 2 ans. Sa mort n'est pas liée à la créature géante (l'Arpenteur nocturne) qui a tué Americ. Portait la même bague que la créature du village.",
+      "famille": {
+        "epouse": "Maelis (confirmée : la créature du village)",
+        "fille": "Aube (7 ans)"
+      }
+    },
+    {
+      "nom": "Harpie (nom non indiqué)",
+      "role": "Intérêt amoureux déclaré de Barrevoudla (ne voyage pas avec le groupe)",
+      "statut": "Apparaît lors d'événements ponctuels",
+      "notes": "Protégée par Barrevoudla en session 2. A aidé pour les renseignements sur le château des gobelins, le fort du nord (session 3), 2 œufs sauvés pour gagner sa confiance. Cherchait son diadème en session 5 : possible princesse ou personnage important de son espèce."
+    },
+    {
+      "nom": "Gromli",
+      "role": "Camarade du groupe (nain)",
+      "statut": "Avec le groupe",
+      "notes": "A offert à Barrevoudla l'alliance prise sur la créature du village, pour la harpie. A ouvert la cage d'Aube dans le reflet du miroir.",
+      "espece": "Nain"
+    },
+    {
+      "nom": "Mineruva",
+      "role": "Camarade du groupe (ensorceleuse)",
+      "statut": "Avec le groupe",
+      "classe": "Ensorceleuse"
+    },
+    {
+      "nom": "Christophe",
+      "role": "Camarade du groupe (moine lutrien, une loutre)",
+      "statut": "Avec le groupe",
+      "classe": "Moine",
+      "espece": "Lutrien (loutre)"
+    },
+    {
+      "nom": "Capitaine Vonn",
+      "role": "Capitaine, chef du fort",
+      "statut": "S'est évaporé après la libération d'Aube",
+      "notes": "L'homme à la lanterne qui a toqué à la taverne. A emmené le groupe au fort gardé par des squelettes en affirmant que c'est un endroit sûr (à vérifier). A banni Ysambre. Entièrement squelettique ; convaincu par le groupe de les emmener au lieu du rituel d'Ysambre."
+    },
+    {
+      "nom": "Maelis",
+      "role": "Épouse d'Alesto, mère d'Aube",
+      "statut": "Morte : c'était la créature du village (confirmé)",
+      "notes": "Retrouvée à l'emplacement de la créature du village, un bras manquant : identité confirmée. Elle portait la même bague qu'Alesto (l'alliance donnée par Gromli à Barrevoudla)."
+    },
+    {
+      "nom": "Aube",
+      "role": "Fille d'Alesto, 7 ans",
+      "statut": "Retrouvée : enfermée dans une cage dans le reflet du miroir ; Gromli ouvre la cage, elle est convaincue d'en sortir"
+    },
+    {
+      "nom": "Ysambre",
+      "role": "Guérisseuse",
+      "statut": "Bannie par le capitaine Vonn",
+      "notes": "A fait revivre les morts sur l'île, ce qui a causé son bannissement. Le rituel d'Ysambre a eu lieu devant un miroir."
+    }
+  ],
+  "creatures": [
+    {
+      "nom": "L'Arpenteur nocturne",
+      "description": "Créature géante qui a pointé Americ du doigt, le tuant. Semée par le groupe après la fuite par les crêtes et le franchissement du gouffre.",
+      "statut": "En liberté"
+    }
+  ]
+}
