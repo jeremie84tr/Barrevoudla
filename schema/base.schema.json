@@ -1,0 +1,334 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Base du personnage",
+  "type": "object",
+  "required": [
+    "identite",
+    "caracteristiques",
+    "maitrises",
+    "traits",
+    "personnalite",
+    "lanceur_de_sorts"
+  ],
+  "properties": {
+    "identite": {
+      "type": "object",
+      "required": [
+        "nom",
+        "joueur",
+        "espece",
+        "classe",
+        "historique",
+        "alignement"
+      ],
+      "properties": {
+        "nom": {
+          "type": "string"
+        },
+        "joueur": {
+          "type": "string"
+        },
+        "espece": {
+          "type": "string"
+        },
+        "classe": {
+          "type": "string"
+        }
+      }
+    },
+    "caracteristiques": {
+      "type": "object",
+      "properties": {
+        "force": {
+          "type": "object",
+          "properties": {
+            "valeur": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "modificateur": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "valeur",
+            "modificateur"
+          ],
+          "additionalProperties": false
+        },
+        "dexterite": {
+          "type": "object",
+          "properties": {
+            "valeur": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "modificateur": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "valeur",
+            "modificateur"
+          ],
+          "additionalProperties": false
+        },
+        "constitution": {
+          "type": "object",
+          "properties": {
+            "valeur": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "modificateur": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "valeur",
+            "modificateur"
+          ],
+          "additionalProperties": false
+        },
+        "intelligence": {
+          "type": "object",
+          "properties": {
+            "valeur": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "modificateur": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "valeur",
+            "modificateur"
+          ],
+          "additionalProperties": false
+        },
+        "sagesse": {
+          "type": "object",
+          "properties": {
+            "valeur": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "modificateur": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "valeur",
+            "modificateur"
+          ],
+          "additionalProperties": false
+        },
+        "charisme": {
+          "type": "object",
+          "properties": {
+            "valeur": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "modificateur": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "valeur",
+            "modificateur"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "force",
+        "dexterite",
+        "constitution",
+        "intelligence",
+        "sagesse",
+        "charisme"
+      ],
+      "additionalProperties": false
+    },
+    "maitrises": {
+      "type": "object",
+      "required": [
+        "bonus_maitrise",
+        "jets_de_sauvegarde",
+        "competences"
+      ],
+      "properties": {
+        "bonus_maitrise": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 6
+        },
+        "jets_de_sauvegarde": {
+          "type": "object",
+          "properties": {
+            "force": {
+              "type": "object",
+              "properties": {
+                "maitrise": {
+                  "type": "boolean"
+                },
+                "bonus": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maitrise",
+                "bonus"
+              ],
+              "additionalProperties": false
+            },
+            "dexterite": {
+              "type": "object",
+              "properties": {
+                "maitrise": {
+                  "type": "boolean"
+                },
+                "bonus": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maitrise",
+                "bonus"
+              ],
+              "additionalProperties": false
+            },
+            "constitution": {
+              "type": "object",
+              "properties": {
+                "maitrise": {
+                  "type": "boolean"
+                },
+                "bonus": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maitrise",
+                "bonus"
+              ],
+              "additionalProperties": false
+            },
+            "intelligence": {
+              "type": "object",
+              "properties": {
+                "maitrise": {
+                  "type": "boolean"
+                },
+                "bonus": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maitrise",
+                "bonus"
+              ],
+              "additionalProperties": false
+            },
+            "sagesse": {
+              "type": "object",
+              "properties": {
+                "maitrise": {
+                  "type": "boolean"
+                },
+                "bonus": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maitrise",
+                "bonus"
+              ],
+              "additionalProperties": false
+            },
+            "charisme": {
+              "type": "object",
+              "properties": {
+                "maitrise": {
+                  "type": "boolean"
+                },
+                "bonus": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maitrise",
+                "bonus"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "force",
+            "dexterite",
+            "constitution",
+            "intelligence",
+            "sagesse",
+            "charisme"
+          ],
+          "additionalProperties": false
+        },
+        "competences": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "carac": {
+                "enum": [
+                  "force",
+                  "dexterite",
+                  "constitution",
+                  "intelligence",
+                  "sagesse",
+                  "charisme"
+                ]
+              },
+              "maitrise": {
+                "type": "boolean"
+              },
+              "bonus": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "carac",
+              "maitrise",
+              "bonus"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "traits": {
+      "type": "object"
+    },
+    "personnalite": {
+      "type": "object"
+    },
+    "lanceur_de_sorts": {
+      "type": "object",
+      "required": [
+        "est_lanceur"
+      ],
+      "properties": {
+        "est_lanceur": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

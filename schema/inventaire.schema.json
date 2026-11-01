@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Inventaire",
+  "type": "object",
+  "required": [
+    "equipe",
+    "inventaire",
+    "monnaie"
+  ],
+  "properties": {
+    "equipe": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "inventaire": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nom"
+        ],
+        "properties": {
+          "nom": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "objets_magiques": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "syntonise": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 3
+    },
+    "capacite_speciale": {
+      "type": "object"
+    },
+    "monnaie": {
+      "type": "object",
+      "required": [
+        "pc",
+        "pa",
+        "pe",
+        "po",
+        "pp"
+      ],
+      "properties": {
+        "pc": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pa": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pe": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "po": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pp": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

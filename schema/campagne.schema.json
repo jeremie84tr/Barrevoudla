@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Campagne",
+  "type": "object",
+  "required": [
+    "nom",
+    "mj",
+    "session",
+    "date_maj",
+    "statut",
+    "quetes",
+    "lieux",
+    "situation_actuelle"
+  ],
+  "properties": {
+    "nom": {
+      "type": "string"
+    },
+    "mj": {
+      "type": "string"
+    },
+    "session": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "date_maj": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "statut": {
+      "type": "string"
+    },
+    "quetes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lieux": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "situation_actuelle": {
+      "type": "object",
+      "required": [
+        "en_combat",
+        "lieu"
+      ],
+      "properties": {
+        "en_combat": {
+          "type": "boolean"
+        },
+        "lieu": {
+          "type": "string"
+        },
+        "adversaire": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

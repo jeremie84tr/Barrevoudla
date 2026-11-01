@@ -1,0 +1,410 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "État du personnage en jeu",
+  "type": "object",
+  "required": [
+    "niveau",
+    "combat",
+    "sens",
+    "attaques",
+    "sorts",
+    "ressources",
+    "notes"
+  ],
+  "properties": {
+    "niveau": {
+      "type": "object",
+      "required": [
+        "niveau"
+      ],
+      "properties": {
+        "niveau": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        "xp": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "xp_prochain_niveau": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "combat": {
+      "type": "object",
+      "required": [
+        "pv_max",
+        "pv_actuels",
+        "pv_temporaires",
+        "classe_armure",
+        "initiative",
+        "vitesse",
+        "etats",
+        "resistances"
+      ],
+      "properties": {
+        "pv_max": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pv_actuels": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pv_temporaires": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "classe_armure": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "initiative": {
+          "type": "integer"
+        },
+        "vitesse": {
+          "type": "string"
+        },
+        "inspiration": {
+          "type": "boolean"
+        },
+        "en_combat": {
+          "type": "boolean"
+        },
+        "jets_contre_la_mort": {
+          "type": "object",
+          "properties": {
+            "reussites": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "echecs": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            }
+          },
+          "required": [
+            "reussites",
+            "echecs"
+          ],
+          "additionalProperties": false
+        },
+        "etats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "resistances": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "immunites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "vulnerabilites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sens": {
+      "type": "object",
+      "properties": {
+        "perception_passive": {
+          "type": "integer"
+        },
+        "vision": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "perception_passive",
+        "vision"
+      ],
+      "additionalProperties": false
+    },
+    "attaques": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nom",
+          "bonus_attaque",
+          "degats"
+        ],
+        "properties": {
+          "nom": {
+            "type": "string"
+          },
+          "bonus_attaque": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "degats": {
+            "type": "string"
+          },
+          "type_degats": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sorts": {
+      "type": "object",
+      "required": [
+        "emplacements"
+      ],
+      "properties": {
+        "emplacements": {
+          "type": "object",
+          "properties": {
+            "1": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "2": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "3": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "4": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "5": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "6": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "7": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "8": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            },
+            "9": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "utilises": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "max",
+                "utilises"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "ressources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nom",
+          "max",
+          "cases_cochees",
+          "restant",
+          "recharge"
+        ],
+        "properties": {
+          "nom": {
+            "type": "string"
+          },
+          "max": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "cases_cochees": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "restant": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "recharge": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "en_cours": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
