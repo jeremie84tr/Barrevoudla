@@ -16,6 +16,7 @@ sessions/
   session-NN.md     récit de chaque session
 scripts/
   generer_fiche.py  génère fiche.md (fiche lisible) depuis les JSON
+  generer_pdf.py    génère le rapport d'une session en PDF A4 imprimable
   verifier.py       valide les JSON (schémas) et la cohérence des valeurs dérivées
 schema/             JSON Schema de chaque fichier de données
 .github/workflows/  GitHub Action qui lance verifier.py à chaque push et PR
@@ -45,4 +46,6 @@ Modifier `niveau`, puis recalculer à la main `bonus_maitrise`, les bonus de jet
 - `main` : branche de référence, état à jour de la fiche.
 - Tags `session-NN` (annotés) : état de la fiche à la fin de chaque session. À poser une fois la mise à jour committée :
   `git tag -a session-06 -m "Fin de la session 6" && git push origin session-06`.
+- Chaque tag `session-NN` déclenche `.github/workflows/release.yml` : une **release** GitHub est créée avec le rapport `sessions/session-NN.md` en **PDF imprimable** en pièce jointe.
+- Pour générer le PDF en local : `pip install markdown weasyprint && python3 scripts/generer_pdf.py 6` (sortie dans `dist/`, ignoré par git).
 - Les sessions 1 à 4 (tutoriel) n'ont pas de tag : l'historique git ne contient pas leur état.

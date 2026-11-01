@@ -1,0 +1,31 @@
+name: Release de session
+
+# Un tag session-NN publie une release avec le rapport de session en PDF.
+on:
+  push:
+    tags:
+      - "session-[0-9][0-9]"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown weasyprint
+      - name: Générer le PDF
+        run: python3 scripts/generer_pdf.py "${GITHUB_REF_NAME#session-}"
+      - name: Publier la release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          fichier="sessions/${GITHUB_REF_NAME}.md"
+          titre="$(head -n1 "$fichier" | sed 's/^# *//')"
+          gh release create "$GITHUB_REF_NAME" "dist/${GITHUB_REF_NAME}.pdf" \
+            --title "$titre" \
+            --notes "Rapport de la session en PDF imprimable : \`${GITHUB_REF_NAME}.pdf\`."
