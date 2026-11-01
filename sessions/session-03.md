@@ -6,4 +6,4 @@
 ## Déroulé
 
 - Campement de l'ouest.
-- La harpie l'aide à obtenir des renseignements sur le château des gobelins (le fort du nord). Pour gagner sa confiance, Barrevoudla sauve des œufs de harpie (2 sauvés).
+- La harpie l'aide à obtenir des renseignements sur le château des gobelins (le fort du nord).

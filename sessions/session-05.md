@@ -6,8 +6,8 @@
 ## Rappel du tutoriel (sessions 1 à 4)
 - **Session 1** : échoués sur une île, Barrevoudla et le groupe sont emprisonnés par des gobelins. Ils s'enfuient et trouvent une carte : deux camps de gobelins à l'est et à l'ouest, un fort au nord, au centre une forêt et des massifs montagneux qui semblent dangereux. Ils partent vers le camp de l'est et combattent.
 - **Session 2** : direction l'ouest en passant par le centre, découverte des harpies. Lors d'un combat contre elles, une créature attaque l'une des harpies ; Barrevoudla la protège et lui déclare son amour.
-- **Session 3** : campement de l'ouest. La harpie l'aide à obtenir des renseignements sur le château des gobelins (le fort du nord) ; pour gagner sa confiance, il sauve 2 œufs de harpie.
-- **Session 4** : le fort du nord, c'est-à-dire le château des gobelins. Les gobelins sont vaincus et le groupe prend le bateau.
+- **Session 3** : campement de l'ouest. La harpie l'aide à obtenir des renseignements sur le château des gobelins (le fort du nord).
+- **Session 4** : le fort du nord, c'est-à-dire le château des gobelins. Pour gagner la confiance de la harpie, il sauve 2 œufs de harpie. Les gobelins sont vaincus et le groupe prend le bateau.
 
 La harpie ne voyage pas avec le groupe : elle apparaît lors d'événements ponctuels.
 
