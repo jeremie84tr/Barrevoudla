@@ -7,7 +7,9 @@
   "quetes": [
     "Offrir l'alliance à la harpie (accomplie en session 6)",
     "Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)",
-    "Revoir la harpie pour boire ensemble la gnôle récupérée à la taverne de Corvelune (réponse de la harpie ce soir)"
+    "Revoir la harpie pour boire ensemble la gnôle récupérée à la taverne de Corvelune (réponse de la harpie ce soir)",
+    "Tournoi de l'arène d'Astera : Barrevoudla est inscrit, le tournoi a lieu demain",
+    "Brumes d'Ys : un expert pourrait y être intéressé par le maudit bâton"
   ],
   "lieux": [
     "Île de départ (sessions 1 à 4, tutoriel) : camps de gobelins à l'est et à l'ouest, fort du nord (château des gobelins), forêt et massifs dangereux au centre, harpies",
@@ -22,11 +24,13 @@
     "Camp et bateau (retour du groupe)",
     "Île d'Astera : destination du bateau (session 6)",
     "Pont du bateau : combat maritime puis abordage (session 6)",
-    "Astera : ville portuaire bâtie sur de nombreuses ruines (arrivée en session 6)"
+    "Astera : ville portuaire bâtie sur de nombreuses ruines (arrivée en session 6)",
+    "Arène d'Astera : tournoi auquel Barrevoudla est inscrit (session 6)",
+    "Brumes d'Ys : un expert pourrait y être intéressé par le maudit bâton (pas encore visité)"
   ],
   "situation_actuelle": {
     "en_combat": false,
     "lieu": "Astera, ville portuaire bâtie sur de nombreuses ruines",
-    "notes": "Après le combat maritime, où Barrevoudla a été assommé par la foudre du capitaine mort-vivant, le groupe arrive à Astera."
+    "notes": "Le groupe est à Astera. Barrevoudla a refusé de vendre le maudit bâton 250 po et s'est inscrit au tournoi de l'arène, qui a lieu demain."
   }
 }

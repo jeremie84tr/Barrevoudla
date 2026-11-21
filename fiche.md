@@ -133,13 +133,15 @@ Monnaie : 160 po, 0 pa, 0 pc, 0 pe, 0 pp (160 po obtenues en session 6)
 
 ## Situation actuelle
 
-Session 6 en cours. Lieu : Astera, ville portuaire bâtie sur de nombreuses ruines. Après le combat maritime, où Barrevoudla a été assommé par la foudre du capitaine mort-vivant, le groupe arrive à Astera.
+Session 6 en cours. Lieu : Astera, ville portuaire bâtie sur de nombreuses ruines. Le groupe est à Astera. Barrevoudla a refusé de vendre le maudit bâton 250 po et s'est inscrit au tournoi de l'arène, qui a lieu demain.
 
 ### Quêtes
 
 - Offrir l'alliance à la harpie (accomplie en session 6)
 - Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)
 - Revoir la harpie pour boire ensemble la gnôle récupérée à la taverne de Corvelune (réponse de la harpie ce soir)
+- Tournoi de l'arène d'Astera : Barrevoudla est inscrit, le tournoi a lieu demain
+- Brumes d'Ys : un expert pourrait y être intéressé par le maudit bâton
 
 ### PNJ
 
@@ -155,6 +157,7 @@ Session 6 en cours. Lieu : Astera, ville portuaire bâtie sur de nombreuses ruin
 | Maelis | Épouse d'Alesto, mère d'Aube | Morte : c'était la créature du village (confirmé) |
 | Aube | Fille d'Alesto, 7 ans | Retrouvée : enfermée dans une cage dans le reflet du miroir ; Gromli ouvre la cage, elle est convaincue d'en sortir |
 | Ysambre | Guérisseuse | Bannie par le capitaine Vonn |
+| Expert d'Astera | Expert en objets, à Astera | Rencontré (session 6) |
 
 ### Créatures
 

@@ -26,12 +26,15 @@
    - L'**artefact de foudre** du capitaine se détruit.
    - Barrevoudla est **réanimé** par ses camarades.
 7. **Arrivée à Astera** : le bateau arrive à **Astera**, une ville portuaire bâtie sur de nombreuses ruines.
+8. **Le maudit bâton** : un expert de la ville propose **250 po** pour le maudit bâton. Barrevoudla trouve l'offre exagérée et refuse de le vendre. L'expert lui indique qu'un autre expert, dans les **Brumes d'Ys**, pourrait être intéressé par l'objet.
+9. **L'arène** : Barrevoudla s'inscrit au **tournoi de l'arène**, qui a lieu demain.
 
 ## Personnages rencontrés
 
 | Nom | Rôle | Statut |
 |---|---|---|
 | Capitaine mort-vivant | Chef des abordeurs, armé d'un artefact de foudre (détruit) | Inconnu |
+| Expert d'Astera | Expert en objets | A proposé 250 po pour le maudit bâton (refusé) |
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
 ## État de Barrevoudla
@@ -43,5 +46,7 @@
 ## À suivre
 - Ce qu'est devenu le capitaine mort-vivant.
 - Explorer Astera et ses ruines.
+- Demain : le tournoi de l'arène.
+- Les Brumes d'Ys : un expert pourrait y être intéressé par le maudit bâton.
 - Ce soir : la réponse de la harpie pour le rendez-vous autour de la gnôle.
 - Savoir ce que devient Aube.

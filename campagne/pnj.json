@@ -63,6 +63,12 @@
       "role": "Guérisseuse",
       "statut": "Bannie par le capitaine Vonn",
       "notes": "A fait revivre les morts sur l'île, ce qui a causé son bannissement. Le rituel d'Ysambre a eu lieu devant un miroir."
+    },
+    {
+      "nom": "Expert d'Astera",
+      "role": "Expert en objets, à Astera",
+      "statut": "Rencontré (session 6)",
+      "notes": "A proposé 250 po pour le maudit bâton (valeur estimée : 7500 po) : offre refusée par Barrevoudla. A indiqué qu'un expert dans les Brumes d'Ys pourrait être intéressé par l'objet."
     }
   ],
   "creatures": [
