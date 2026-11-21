@@ -16,6 +16,7 @@
 6. **Combat sur le pont** (en cours) :
    - **Mineruva** recule pour s'éloigner d'un ennemi trop proche.
    - **Barrevoudla** se place, entre en **Rage** : Accès de magie sauvage **6** (+1 CA tant que dure la Rage). Il lance ensuite son **Souffle** sur les ennemis.
+   - Barrevoudla reçoit **17 dégâts** (53 → 36 PV).
 
 ## Personnages rencontrés
 
@@ -24,7 +25,7 @@
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
 ## État de Barrevoudla (combat en cours)
-- **PV** : 53 / 53, dés de vie 4 / 4d12
+- **PV** : 36 / 53, dés de vie 4 / 4d12
 - **Rage** : en cours, 2 charges restantes. Accès sauvage 6 : CA 15.
 - **Souffle** : 1 charge restante.
 

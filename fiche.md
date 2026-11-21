@@ -9,7 +9,7 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | PV | PV temp. | CA | Initiative | Vitesse | Maîtrise | Perception passive |
 |---|---|---|---|---|---|---|
-| 53/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
+| 36/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
 
 - Dés de vie : 4/4 d12
 - Résistances : feu · Immunités : – · Vulnérabilités : –
