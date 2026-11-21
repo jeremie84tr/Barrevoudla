@@ -19,6 +19,7 @@
    - Barrevoudla reçoit **17 dégâts tranchants**, divisés par deux par la Rage : **8 dégâts** (53 → 45 PV).
    - Barrevoudla reçoit **6 dégâts** (45 → 39 PV).
    - Barrevoudla reçoit **4 dégâts perforants**, divisés par deux par la Rage : **2 dégâts** (39 → 37 PV).
+   - Barrevoudla reçoit **6 dégâts perforants**, divisés par deux par la Rage : **3 dégâts** (37 → 34 PV).
 
 ## Personnages rencontrés
 
@@ -27,7 +28,7 @@
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
 ## État de Barrevoudla (combat en cours)
-- **PV** : 37 / 53, dés de vie 4 / 4d12
+- **PV** : 34 / 53, dés de vie 4 / 4d12
 - **Rage** : en cours, 2 charges restantes. Accès sauvage 6 : CA 15.
 - **Souffle** : 1 charge restante.
 
