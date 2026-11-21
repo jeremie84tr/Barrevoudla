@@ -65,7 +65,7 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | Ressource | Restant | Recharge | Notes |
 |---|---|---|---|
-| Rage | 1/3 | 1 au repos court, toutes au repos long | Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 1 charge restante |
+| Rage | 2/3 | 1 au repos court, toutes au repos long | Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 2 charges restantes |
 | Souffle | 1/2 | repos long | Stats réinitialisées en début de session 6. Utilisé contre les abordeurs : 1 charge restante |
 | Conscience magique | 2/2 | repos long |  |
 | Le maudit bâton | 2/2 | 2 à l'aube | 2 charges restantes |

@@ -116,10 +116,10 @@
     {
       "nom": "Rage",
       "max": 3,
-      "cases_cochees": 2,
-      "restant": 1,
+      "cases_cochees": 1,
+      "restant": 2,
       "recharge": "1 au repos court, toutes au repos long",
-      "notes": "Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 1 charge restante",
+      "notes": "Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 2 charges restantes",
       "en_cours": true
     },
     {

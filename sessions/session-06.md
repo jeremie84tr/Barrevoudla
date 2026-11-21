@@ -25,7 +25,7 @@
 
 ## État de Barrevoudla (combat en cours)
 - **PV** : 53 / 53, dés de vie 4 / 4d12
-- **Rage** : en cours, 1 charge restante. Accès sauvage 6 : CA 15.
+- **Rage** : en cours, 2 charges restantes. Accès sauvage 6 : CA 15.
 - **Souffle** : 1 charge restante.
 
 ## À suivre
