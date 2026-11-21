@@ -8,7 +8,7 @@
 
 ## Déroulé
 
-1. **Départ** : le groupe quitte l'île de Corvelune en bateau, en direction de l'**île d'Astera**. Repos long pendant la traversée : Barrevoudla remonte à 53 PV.
+1. **Départ** : le groupe quitte l'île de Corvelune en bateau, en direction de l'**île d'Astera**. Nouvelle session : les stats de Barrevoudla sont réinitialisées (53 PV, ressources au maximum).
 2. **La harpie** : Barrevoudla lui demande son nom : c'est un cri d'oiseau.
 3. **L'alliance** : Barrevoudla lui offre la bague (l'alliance de Maelis).
 4. **Rendez-vous** : il lui propose de se revoir plus tard pour boire ensemble la **gnôle** qu'il a récupérée en secret dans la taverne de Corvelune (session 5). Elle lui répond qu'elle lui dira **ce soir** si elle vient.
@@ -24,8 +24,8 @@
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
 ## État de Barrevoudla (combat en cours)
-- **PV** : 53 / 53, dés de vie 2 / 4d12
-- **Rage** : en cours, 2 charges restantes. Accès sauvage 6 : CA 15.
+- **PV** : 53 / 53, dés de vie 4 / 4d12
+- **Rage** : en cours, 1 charge restante. Accès sauvage 6 : CA 15.
 - **Souffle** : 1 charge restante.
 
 ## À suivre

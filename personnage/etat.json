@@ -12,8 +12,8 @@
     "des_de_vie": {
       "type": "d12",
       "total": 4,
-      "restants": 2,
-      "note": "Repos long pendant la traversée : moitié des dés de vie récupérée (2 sur 4)"
+      "restants": 4,
+      "note": "Réinitialisés au début de la session 6"
     },
     "classe_armure": 14,
     "initiative": 2,
@@ -116,10 +116,10 @@
     {
       "nom": "Rage",
       "max": 3,
-      "cases_cochees": 1,
-      "restant": 2,
+      "cases_cochees": 2,
+      "restant": 1,
       "recharge": "1 au repos court, toutes au repos long",
-      "notes": "Rage en cours (combat maritime, session 6) : 2 charges restantes",
+      "notes": "Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 1 charge restante",
       "en_cours": true
     },
     {
@@ -128,7 +128,7 @@
       "cases_cochees": 1,
       "restant": 1,
       "recharge": "repos long",
-      "notes": "Utilisé contre les abordeurs (session 6) : 1 charge restante"
+      "notes": "Stats réinitialisées en début de session 6. Utilisé contre les abordeurs : 1 charge restante"
     },
     {
       "nom": "Conscience magique",

@@ -11,7 +11,7 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 |---|---|---|---|---|---|---|
 | 53/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
 
-- Dés de vie : 2/4 d12
+- Dés de vie : 4/4 d12
 - Résistances : feu · Immunités : – · Vulnérabilités : –
 - États : En Rage, Accès de magie sauvage 6 : +1 CA (CA 15) tant que dure la Rage · Inspiration : non
 - Sens : Vision dans le noir 18 m
@@ -65,8 +65,8 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | Ressource | Restant | Recharge | Notes |
 |---|---|---|---|
-| Rage | 2/3 | 1 au repos court, toutes au repos long | Rage en cours (combat maritime, session 6) : 2 charges restantes |
-| Souffle | 1/2 | repos long | Utilisé contre les abordeurs (session 6) : 1 charge restante |
+| Rage | 1/3 | 1 au repos court, toutes au repos long | Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 1 charge restante |
+| Souffle | 1/2 | repos long | Stats réinitialisées en début de session 6. Utilisé contre les abordeurs : 1 charge restante |
 | Conscience magique | 2/2 | repos long |  |
 | Le maudit bâton | 2/2 | 2 à l'aube | 2 charges restantes |
 
