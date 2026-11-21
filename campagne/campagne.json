@@ -3,7 +3,7 @@
   "mj": "Nicolas Urban",
   "session": 6,
   "date_maj": "2026-11-21",
-  "statut": "Session 6 en cours",
+  "statut": "Session 6 terminée",
   "quetes": [
     "Offrir l'alliance à la harpie (accomplie en session 6)",
     "Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)",
@@ -31,6 +31,6 @@
   "situation_actuelle": {
     "en_combat": false,
     "lieu": "Astera, ville portuaire bâtie sur de nombreuses ruines",
-    "notes": "Le groupe est à Astera. Barrevoudla a refusé de vendre le maudit bâton 250 po et s'est inscrit au tournoi de l'arène, qui a lieu demain."
+    "notes": "Fin de la session 6. Le groupe est à Astera. Barrevoudla a refusé de vendre le maudit bâton 250 po et est inscrit au tournoi de l'arène, qui a lieu le lendemain."
   }
 }

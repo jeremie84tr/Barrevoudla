@@ -133,7 +133,7 @@ Monnaie : 160 po, 0 pa, 0 pc, 0 pe, 0 pp (160 po obtenues en session 6)
 
 ## Situation actuelle
 
-Session 6 en cours. Lieu : Astera, ville portuaire bâtie sur de nombreuses ruines. Le groupe est à Astera. Barrevoudla a refusé de vendre le maudit bâton 250 po et s'est inscrit au tournoi de l'arène, qui a lieu demain.
+Session 6 terminée. Lieu : Astera, ville portuaire bâtie sur de nombreuses ruines. Fin de la session 6. Le groupe est à Astera. Barrevoudla a refusé de vendre le maudit bâton 250 po et est inscrit au tournoi de l'arène, qui a lieu le lendemain.
 
 ### Quêtes
 

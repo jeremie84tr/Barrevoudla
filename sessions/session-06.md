@@ -37,7 +37,7 @@
 | Expert d'Astera | Expert en objets | A proposé 250 po pour le maudit bâton (refusé) |
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
-## État de Barrevoudla
+## État de Barrevoudla en fin de session
 - **PV** : 1 / 53 (assommé par la foudre du capitaine mort-vivant, puis réanimé par ses camarades), dés de vie 4 / 4d12
 - **Rage** : terminée, 2 charges restantes.
 - **Monnaie** : +160 po (total 160 po)
