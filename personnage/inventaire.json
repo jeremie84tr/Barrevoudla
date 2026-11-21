@@ -56,6 +56,11 @@
       "nom": "Sac de couchage",
       "valeur": "1 po",
       "description": "Permet à une créature de taille Petite ou Moyenne de dormir. Réussite automatique aux jets de sauvegarde contre le froid extrême."
+    },
+    {
+      "nom": "Gnôle",
+      "type": "Boisson alcoolisée",
+      "description": "Récupérée en secret dans la taverne du village de Corvelune (session 5). Destinée au rendez-vous avec la harpie."
     }
   ],
   "objets_magiques": [

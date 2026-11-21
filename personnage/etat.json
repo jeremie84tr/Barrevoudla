@@ -7,13 +7,13 @@
   },
   "combat": {
     "pv_max": 53,
-    "pv_actuels": 23,
+    "pv_actuels": 53,
     "pv_temporaires": 0,
     "des_de_vie": {
       "type": "d12",
       "total": 4,
-      "restants": 0,
-      "note": "Les 4d12 ont été dépensés (repos court)"
+      "restants": 2,
+      "note": "Repos long pendant la traversée : moitié des dés de vie récupérée (2 sur 4)"
     },
     "classe_armure": 14,
     "initiative": 2,
@@ -116,19 +116,19 @@
     {
       "nom": "Rage",
       "max": 3,
-      "cases_cochees": 3,
-      "restant": 0,
+      "cases_cochees": 1,
+      "restant": 2,
       "recharge": "1 au repos court, toutes au repos long",
-      "notes": "Rage en cours (combat maritime, session 6) : plus aucune charge",
+      "notes": "Rage en cours (combat maritime, session 6) : 2 charges restantes",
       "en_cours": true
     },
     {
       "nom": "Souffle",
       "max": 2,
-      "cases_cochees": 2,
-      "restant": 0,
+      "cases_cochees": 1,
+      "restant": 1,
       "recharge": "repos long",
-      "notes": "Utilisé contre les abordeurs (session 6) : plus aucune charge"
+      "notes": "Utilisé contre les abordeurs (session 6) : 1 charge restante"
     },
     {
       "nom": "Conscience magique",

@@ -9,9 +9,9 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | PV | PV temp. | CA | Initiative | Vitesse | Maîtrise | Perception passive |
 |---|---|---|---|---|---|---|
-| 23/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
+| 53/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
 
-- Dés de vie : 0/4 d12
+- Dés de vie : 2/4 d12
 - Résistances : feu · Immunités : – · Vulnérabilités : –
 - États : En Rage, Accès de magie sauvage 6 : +1 CA (CA 15) tant que dure la Rage · Inspiration : non
 - Sens : Vision dans le noir 18 m
@@ -65,8 +65,8 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | Ressource | Restant | Recharge | Notes |
 |---|---|---|---|
-| Rage | 0/3 | 1 au repos court, toutes au repos long | Rage en cours (combat maritime, session 6) : plus aucune charge |
-| Souffle | 0/2 | repos long | Utilisé contre les abordeurs (session 6) : plus aucune charge |
+| Rage | 2/3 | 1 au repos court, toutes au repos long | Rage en cours (combat maritime, session 6) : 2 charges restantes |
+| Souffle | 1/2 | repos long | Utilisé contre les abordeurs (session 6) : 1 charge restante |
 | Conscience magique | 2/2 | repos long |  |
 | Le maudit bâton | 2/2 | 2 à l'aube | 2 charges restantes |
 
@@ -113,6 +113,7 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 - **Le maudit bâton** (Sceptre · Très rare · 7500 po · 5 kg) : Au prix d'une action et d'une charge, permet de ranimer le cadavre d'une créature dont le facteur de puissance est inférieur ou égal au niveau du lanceur moins 2. La réanimation dure une heure maximum. Le lanceur ne peut pas contrôler plus de 2 morts-vivants ainsi ranimés simultanément.
 - **Torche** (1 pc) : Brûle 1 heure, lumière vive sur 6 m et lumière faible sur 6 m de plus. Peut servir d'arme courante de corps à corps : 1 dégât de feu si touche.
 - **Sac de couchage** (1 po) : Permet à une créature de taille Petite ou Moyenne de dormir. Réussite automatique aux jets de sauvegarde contre le froid extrême.
+- **Gnôle** (Boisson alcoolisée) : Récupérée en secret dans la taverne du village de Corvelune (session 5). Destinée au rendez-vous avec la harpie.
 
 Monnaie : 0 po, 0 pa, 0 pc, 0 pe, 0 pp (Gérée par le MJ pour le moment)
 
@@ -138,7 +139,7 @@ Session 6 en cours. Lieu : En mer, sur le pont du bateau, entre Corvelune et Ast
 
 - Offrir l'alliance à la harpie (accomplie en session 6)
 - Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)
-- Revoir la harpie pour boire ensemble l'alcool trouvé en session 5
+- Revoir la harpie pour boire ensemble la gnôle récupérée à la taverne de Corvelune (réponse de la harpie ce soir)
 
 ### PNJ
 
