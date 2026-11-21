@@ -12,6 +12,10 @@
 2. **La harpie** : Barrevoudla lui demande son nom : c'est un cri d'oiseau.
 3. **L'alliance** : Barrevoudla lui offre la bague (l'alliance de Maelis).
 4. **Rendez-vous** : il lui propose de se revoir plus tard pour boire ensemble un alcool trouvé lors de la session précédente.
+5. **Combat maritime** : des ennemis attaquent le bateau en mer. Barrevoudla dirige la manœuvre **en tant que capitaine**. Les ennemis parviennent à **aborder** le bateau.
+6. **Combat sur le pont** (en cours) :
+   - **Mineruva** recule pour s'éloigner d'un ennemi trop proche.
+   - **Barrevoudla** se place, entre en **Rage** : Accès de magie sauvage **6** (+1 CA tant que dure la Rage). Il lance ensuite son **Souffle** sur les ennemis.
 
 ## Personnages rencontrés
 
@@ -19,7 +23,13 @@
 |---|---|---|
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; rendez-vous proposé |
 
+## État de Barrevoudla (combat en cours)
+- **PV** : 23 / 53 (aucun repos noté depuis la session 5)
+- **Rage** : en cours, 0 charge restante. Accès sauvage 6 : CA 15.
+- **Souffle** : 0 charge restante.
+
 ## À suivre
+- Finir le combat contre les abordeurs.
 - Le rendez-vous avec la harpie autour de l'alcool.
 - L'arrivée sur l'île d'Astera.
 - Savoir ce que devient Aube.

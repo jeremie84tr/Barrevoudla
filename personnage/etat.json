@@ -23,13 +23,16 @@
       "reussites": 0,
       "echecs": 0
     },
-    "etats": [],
+    "etats": [
+      "En Rage",
+      "Accès de magie sauvage 6 : +1 CA (CA 15) tant que dure la Rage"
+    ],
     "resistances": [
       "feu"
     ],
     "immunites": [],
     "vulnerabilites": [],
-    "en_combat": false
+    "en_combat": true
   },
   "sens": {
     "perception_passive": 10,
@@ -113,19 +116,19 @@
     {
       "nom": "Rage",
       "max": 3,
-      "cases_cochees": 2,
-      "restant": 1,
+      "cases_cochees": 3,
+      "restant": 0,
       "recharge": "1 au repos court, toutes au repos long",
-      "notes": "1 charge restante (Rage terminée avec la fin du combat)",
-      "en_cours": false
+      "notes": "Rage en cours (combat maritime, session 6) : plus aucune charge",
+      "en_cours": true
     },
     {
       "nom": "Souffle",
       "max": 2,
-      "cases_cochees": 1,
-      "restant": 1,
+      "cases_cochees": 2,
+      "restant": 0,
       "recharge": "repos long",
-      "notes": "1 charge restante"
+      "notes": "Utilisé contre les abordeurs (session 6) : plus aucune charge"
     },
     {
       "nom": "Conscience magique",

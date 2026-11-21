@@ -13,7 +13,7 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 - Dés de vie : 0/4 d12
 - Résistances : feu · Immunités : – · Vulnérabilités : –
-- États : – · Inspiration : non
+- États : En Rage, Accès de magie sauvage 6 : +1 CA (CA 15) tant que dure la Rage · Inspiration : non
 - Sens : Vision dans le noir 18 m
 
 ## Caractéristiques
@@ -65,8 +65,8 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | Ressource | Restant | Recharge | Notes |
 |---|---|---|---|
-| Rage | 1/3 | 1 au repos court, toutes au repos long | 1 charge restante (Rage terminée avec la fin du combat) |
-| Souffle | 1/2 | repos long | 1 charge restante |
+| Rage | 0/3 | 1 au repos court, toutes au repos long | Rage en cours (combat maritime, session 6) : plus aucune charge |
+| Souffle | 0/2 | repos long | Utilisé contre les abordeurs (session 6) : plus aucune charge |
 | Conscience magique | 2/2 | repos long |  |
 | Le maudit bâton | 2/2 | 2 à l'aube | 2 charges restantes |
 
@@ -132,7 +132,7 @@ Monnaie : 0 po, 0 pa, 0 pc, 0 pe, 0 pp (Gérée par le MJ pour le moment)
 
 ## Situation actuelle
 
-Session 6 en cours. Lieu : En bateau, de Corvelune vers l'île d'Astera. Session 6 en cours. Barrevoudla a offert l'alliance à la harpie et lui a proposé un verre plus tard.
+Session 6 en cours. Lieu : En mer, sur le pont du bateau, entre Corvelune et Astera. Combat en cours. Barrevoudla commande le bateau en tant que capitaine. Il est en Rage (Accès sauvage 6 : +1 CA) et a lancé son Souffle sur les abordeurs.
 
 ### Quêtes
 

@@ -20,11 +20,13 @@
     "Fort gardé par des squelettes (le capitaine affirme que c'est sûr)",
     "Lieu du rituel d'Ysambre : miroir dans lequel Aube était enfermée",
     "Camp et bateau (retour du groupe)",
-    "Île d'Astera : destination du bateau (session 6)"
+    "Île d'Astera : destination du bateau (session 6)",
+    "Pont du bateau : combat maritime puis abordage (session 6)"
   ],
   "situation_actuelle": {
-    "en_combat": false,
-    "lieu": "En bateau, de Corvelune vers l'île d'Astera",
-    "notes": "Session 6 en cours. Barrevoudla a offert l'alliance à la harpie et lui a proposé un verre plus tard."
+    "en_combat": true,
+    "lieu": "En mer, sur le pont du bateau, entre Corvelune et Astera",
+    "adversaire": "Ennemis à l'abordage",
+    "notes": "Combat en cours. Barrevoudla commande le bateau en tant que capitaine. Il est en Rage (Accès sauvage 6 : +1 CA) et a lancé son Souffle sur les abordeurs."
   }
 }
