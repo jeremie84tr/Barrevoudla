@@ -73,7 +73,7 @@
     },
     {
       "nom": "Capitaine mort-vivant",
-      "description": "Capitaine squelettique des ennemis qui ont abordé le bateau en mer (session 6). Possède un artefact qui projette la foudre : sa dernière attaque a fait perdre ses 30 derniers PV à Barrevoudla et l'a laissé à terre, assommé.",
+      "description": "Capitaine squelettique des ennemis qui ont abordé le bateau en mer (session 6). Possède un artefact qui projette la foudre : sa dernière attaque a fait perdre ses 30 derniers PV à Barrevoudla et l'a laissé à terre, assommé. Son artefact de foudre s'est détruit.",
       "statut": "Inconnu (combat en mer, session 6)"
     }
   ]

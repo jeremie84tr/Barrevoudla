@@ -23,22 +23,24 @@
    - Barrevoudla reçoit **4 dégâts perforants**, divisés par deux par la Rage : **2 dégâts** (34 → 32 PV).
    - Barrevoudla reçoit **4 dégâts perforants**, divisés par deux par la Rage : **2 dégâts** (32 → 30 PV).
    - Le **capitaine mort-vivant** frappe Barrevoudla avec son **artefact de foudre** : il perd ses 30 derniers PV et finit **à terre, assommé** (0 PV). Sa Rage prend fin.
+   - L'**artefact de foudre** du capitaine se détruit.
+   - Barrevoudla est **réanimé** par ses camarades.
 7. **Arrivée à Astera** : le bateau arrive à **Astera**, une ville portuaire bâtie sur de nombreuses ruines.
 
 ## Personnages rencontrés
 
 | Nom | Rôle | Statut |
 |---|---|---|
-| Capitaine mort-vivant | Chef des abordeurs, armé d'un artefact de foudre | Inconnu |
+| Capitaine mort-vivant | Chef des abordeurs, armé d'un artefact de foudre (détruit) | Inconnu |
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
 ## État de Barrevoudla
-- **PV** : 0 / 53 (assommé par la foudre du capitaine mort-vivant), dés de vie 4 / 4d12
+- **PV** : 1 / 53 (assommé par la foudre du capitaine mort-vivant, puis réanimé par ses camarades), dés de vie 4 / 4d12
 - **Rage** : terminée, 2 charges restantes.
 - **Souffle** : 1 charge restante.
 
 ## À suivre
-- Ce qu'est devenu le capitaine mort-vivant et son artefact de foudre.
+- Ce qu'est devenu le capitaine mort-vivant.
 - Explorer Astera et ses ruines.
 - Ce soir : la réponse de la harpie pour le rendez-vous autour de la gnôle.
 - Savoir ce que devient Aube.

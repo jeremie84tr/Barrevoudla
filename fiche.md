@@ -9,11 +9,11 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | PV | PV temp. | CA | Initiative | Vitesse | Maîtrise | Perception passive |
 |---|---|---|---|---|---|---|
-| 0/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
+| 1/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
 
 - Dés de vie : 4/4 d12
 - Résistances : feu · Immunités : – · Vulnérabilités : –
-- États : À terre, assommé (0 PV) par la foudre du capitaine mort-vivant · Inspiration : non
+- États : – · Inspiration : non
 - Sens : Vision dans le noir 18 m
 
 ## Caractéristiques
@@ -159,4 +159,4 @@ Session 6 en cours. Lieu : Astera, ville portuaire bâtie sur de nombreuses ruin
 ### Créatures
 
 - **L'Arpenteur nocturne** (En liberté) : Créature géante qui a pointé Americ du doigt, le tuant. Semée par le groupe après la fuite par les crêtes et le franchissement du gouffre.
-- **Capitaine mort-vivant** (Inconnu (combat en mer, session 6)) : Capitaine squelettique des ennemis qui ont abordé le bateau en mer (session 6). Possède un artefact qui projette la foudre : sa dernière attaque a fait perdre ses 30 derniers PV à Barrevoudla et l'a laissé à terre, assommé.
+- **Capitaine mort-vivant** (Inconnu (combat en mer, session 6)) : Capitaine squelettique des ennemis qui ont abordé le bateau en mer (session 6). Possède un artefact qui projette la foudre : sa dernière attaque a fait perdre ses 30 derniers PV à Barrevoudla et l'a laissé à terre, assommé. Son artefact de foudre s'est détruit.

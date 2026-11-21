@@ -7,7 +7,7 @@
   },
   "combat": {
     "pv_max": 53,
-    "pv_actuels": 0,
+    "pv_actuels": 1,
     "pv_temporaires": 0,
     "des_de_vie": {
       "type": "d12",
@@ -23,9 +23,7 @@
       "reussites": 0,
       "echecs": 0
     },
-    "etats": [
-      "À terre, assommé (0 PV) par la foudre du capitaine mort-vivant"
-    ],
+    "etats": [],
     "resistances": [
       "feu"
     ],
