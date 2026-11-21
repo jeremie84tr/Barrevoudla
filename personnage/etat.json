@@ -7,7 +7,7 @@
   },
   "combat": {
     "pv_max": 53,
-    "pv_actuels": 30,
+    "pv_actuels": 0,
     "pv_temporaires": 0,
     "des_de_vie": {
       "type": "d12",
@@ -24,15 +24,14 @@
       "echecs": 0
     },
     "etats": [
-      "En Rage",
-      "Accès de magie sauvage 6 : +1 CA (CA 15) tant que dure la Rage"
+      "À terre, assommé (0 PV) par la foudre du capitaine mort-vivant"
     ],
     "resistances": [
       "feu"
     ],
     "immunites": [],
     "vulnerabilites": [],
-    "en_combat": true
+    "en_combat": false
   },
   "sens": {
     "perception_passive": 10,
@@ -119,8 +118,8 @@
       "cases_cochees": 1,
       "restant": 2,
       "recharge": "1 au repos court, toutes au repos long",
-      "notes": "Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 2 charges restantes",
-      "en_cours": true
+      "notes": "Rage terminée (Barrevoudla assommé, session 6) : 2 charges restantes",
+      "en_cours": false
     },
     {
       "nom": "Souffle",

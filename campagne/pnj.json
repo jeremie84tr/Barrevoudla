@@ -70,6 +70,11 @@
       "nom": "L'Arpenteur nocturne",
       "description": "Créature géante qui a pointé Americ du doigt, le tuant. Semée par le groupe après la fuite par les crêtes et le franchissement du gouffre.",
       "statut": "En liberté"
+    },
+    {
+      "nom": "Capitaine mort-vivant",
+      "description": "Capitaine squelettique des ennemis qui ont abordé le bateau en mer (session 6). Possède un artefact qui projette la foudre : sa dernière attaque a fait perdre ses 30 derniers PV à Barrevoudla et l'a laissé à terre, assommé.",
+      "statut": "Inconnu (combat en mer, session 6)"
     }
   ]
 }

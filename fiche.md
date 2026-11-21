@@ -9,11 +9,11 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | PV | PV temp. | CA | Initiative | Vitesse | Maîtrise | Perception passive |
 |---|---|---|---|---|---|---|
-| 30/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
+| 0/53 | 0 | 14 | +2 | 9 m | +2 | 10 |
 
 - Dés de vie : 4/4 d12
 - Résistances : feu · Immunités : – · Vulnérabilités : –
-- États : En Rage, Accès de magie sauvage 6 : +1 CA (CA 15) tant que dure la Rage · Inspiration : non
+- États : À terre, assommé (0 PV) par la foudre du capitaine mort-vivant · Inspiration : non
 - Sens : Vision dans le noir 18 m
 
 ## Caractéristiques
@@ -65,7 +65,7 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 | Ressource | Restant | Recharge | Notes |
 |---|---|---|---|
-| Rage | 2/3 | 1 au repos court, toutes au repos long | Stats réinitialisées en début de session 6. Rage en cours (combat maritime) : 2 charges restantes |
+| Rage | 2/3 | 1 au repos court, toutes au repos long | Rage terminée (Barrevoudla assommé, session 6) : 2 charges restantes |
 | Souffle | 1/2 | repos long | Stats réinitialisées en début de session 6. Utilisé contre les abordeurs : 1 charge restante |
 | Conscience magique | 2/2 | repos long |  |
 | Le maudit bâton | 2/2 | 2 à l'aube | 2 charges restantes |
@@ -133,7 +133,7 @@ Monnaie : 0 po, 0 pa, 0 pc, 0 pe, 0 pp (Gérée par le MJ pour le moment)
 
 ## Situation actuelle
 
-Session 6 en cours. Lieu : En mer, sur le pont du bateau, entre Corvelune et Astera. Combat en cours. Barrevoudla commande le bateau en tant que capitaine. Il est en Rage (Accès sauvage 6 : +1 CA) et a lancé son Souffle sur les abordeurs.
+Session 6 en cours. Lieu : Astera, ville portuaire bâtie sur de nombreuses ruines. Après le combat maritime, où Barrevoudla a été assommé par la foudre du capitaine mort-vivant, le groupe arrive à Astera.
 
 ### Quêtes
 
@@ -159,3 +159,4 @@ Session 6 en cours. Lieu : En mer, sur le pont du bateau, entre Corvelune et Ast
 ### Créatures
 
 - **L'Arpenteur nocturne** (En liberté) : Créature géante qui a pointé Americ du doigt, le tuant. Semée par le groupe après la fuite par les crêtes et le franchissement du gouffre.
+- **Capitaine mort-vivant** (Inconnu (combat en mer, session 6)) : Capitaine squelettique des ennemis qui ont abordé le bateau en mer (session 6). Possède un artefact qui projette la foudre : sa dernière attaque a fait perdre ses 30 derniers PV à Barrevoudla et l'a laissé à terre, assommé.

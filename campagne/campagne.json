@@ -21,12 +21,12 @@
     "Lieu du rituel d'Ysambre : miroir dans lequel Aube était enfermée",
     "Camp et bateau (retour du groupe)",
     "Île d'Astera : destination du bateau (session 6)",
-    "Pont du bateau : combat maritime puis abordage (session 6)"
+    "Pont du bateau : combat maritime puis abordage (session 6)",
+    "Astera : ville portuaire bâtie sur de nombreuses ruines (arrivée en session 6)"
   ],
   "situation_actuelle": {
-    "en_combat": true,
-    "lieu": "En mer, sur le pont du bateau, entre Corvelune et Astera",
-    "adversaire": "Ennemis à l'abordage",
-    "notes": "Combat en cours. Barrevoudla commande le bateau en tant que capitaine. Il est en Rage (Accès sauvage 6 : +1 CA) et a lancé son Souffle sur les abordeurs."
+    "en_combat": false,
+    "lieu": "Astera, ville portuaire bâtie sur de nombreuses ruines",
+    "notes": "Après le combat maritime, où Barrevoudla a été assommé par la foudre du capitaine mort-vivant, le groupe arrive à Astera."
   }
 }

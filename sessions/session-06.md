@@ -13,7 +13,7 @@
 3. **L'alliance** : Barrevoudla lui offre la bague (l'alliance de Maelis).
 4. **Rendez-vous** : il lui propose de se revoir plus tard pour boire ensemble la **gnôle** qu'il a récupérée en secret dans la taverne de Corvelune (session 5). Elle lui répond qu'elle lui dira **ce soir** si elle vient.
 5. **Combat maritime** : des ennemis attaquent le bateau en mer. Barrevoudla dirige la manœuvre **en tant que capitaine**. Les ennemis parviennent à **aborder** le bateau.
-6. **Combat sur le pont** (en cours) :
+6. **Combat sur le pont** :
    - **Mineruva** recule pour s'éloigner d'un ennemi trop proche.
    - **Barrevoudla** se place, entre en **Rage** : Accès de magie sauvage **6** (+1 CA tant que dure la Rage). Il lance ensuite son **Souffle** sur les ennemis.
    - Barrevoudla reçoit **17 dégâts tranchants**, divisés par deux par la Rage : **8 dégâts** (53 → 45 PV).
@@ -22,20 +22,23 @@
    - Barrevoudla reçoit **6 dégâts perforants**, divisés par deux par la Rage : **3 dégâts** (37 → 34 PV).
    - Barrevoudla reçoit **4 dégâts perforants**, divisés par deux par la Rage : **2 dégâts** (34 → 32 PV).
    - Barrevoudla reçoit **4 dégâts perforants**, divisés par deux par la Rage : **2 dégâts** (32 → 30 PV).
+   - Le **capitaine mort-vivant** frappe Barrevoudla avec son **artefact de foudre** : il perd ses 30 derniers PV et finit **à terre, assommé** (0 PV). Sa Rage prend fin.
+7. **Arrivée à Astera** : le bateau arrive à **Astera**, une ville portuaire bâtie sur de nombreuses ruines.
 
 ## Personnages rencontrés
 
 | Nom | Rôle | Statut |
 |---|---|---|
+| Capitaine mort-vivant | Chef des abordeurs, armé d'un artefact de foudre | Inconnu |
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
-## État de Barrevoudla (combat en cours)
-- **PV** : 30 / 53, dés de vie 4 / 4d12
-- **Rage** : en cours, 2 charges restantes. Accès sauvage 6 : CA 15.
+## État de Barrevoudla
+- **PV** : 0 / 53 (assommé par la foudre du capitaine mort-vivant), dés de vie 4 / 4d12
+- **Rage** : terminée, 2 charges restantes.
 - **Souffle** : 1 charge restante.
 
 ## À suivre
-- Finir le combat contre les abordeurs.
+- Ce qu'est devenu le capitaine mort-vivant et son artefact de foudre.
+- Explorer Astera et ses ruines.
 - Ce soir : la réponse de la harpie pour le rendez-vous autour de la gnôle.
-- L'arrivée sur l'île d'Astera.
 - Savoir ce que devient Aube.
