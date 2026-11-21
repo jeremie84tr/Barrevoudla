@@ -18,7 +18,7 @@
    - **Barrevoudla** se place, entre en **Rage** : Accès de magie sauvage **6** (+1 CA tant que dure la Rage). Il lance ensuite son **Souffle** sur les ennemis.
    - Barrevoudla reçoit **17 dégâts tranchants**, divisés par deux par la Rage : **8 dégâts** (53 → 45 PV).
    - Barrevoudla reçoit **6 dégâts** (45 → 39 PV).
-   - Barrevoudla reçoit **2 dégâts perforants**, divisés par deux par la Rage : **1 dégât** (39 → 38 PV).
+   - Barrevoudla reçoit **4 dégâts perforants**, divisés par deux par la Rage : **2 dégâts** (39 → 37 PV).
 
 ## Personnages rencontrés
 
@@ -27,7 +27,7 @@
 | Harpie (nom : un cri d'oiseau) | Intérêt amoureux de Barrevoudla | A reçu l'alliance ; dira ce soir si elle vient au rendez-vous |
 
 ## État de Barrevoudla (combat en cours)
-- **PV** : 38 / 53, dés de vie 4 / 4d12
+- **PV** : 37 / 53, dés de vie 4 / 4d12
 - **Rage** : en cours, 2 charges restantes. Accès sauvage 6 : CA 15.
 - **Souffle** : 1 charge restante.
 
