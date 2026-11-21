@@ -37,6 +37,7 @@
 ## État de Barrevoudla
 - **PV** : 1 / 53 (assommé par la foudre du capitaine mort-vivant, puis réanimé par ses camarades), dés de vie 4 / 4d12
 - **Rage** : terminée, 2 charges restantes.
+- **Monnaie** : +160 po (total 160 po)
 - **Souffle** : 1 charge restante.
 
 ## À suivre

@@ -115,7 +115,7 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 - **Sac de couchage** (1 po) : Permet à une créature de taille Petite ou Moyenne de dormir. Réussite automatique aux jets de sauvegarde contre le froid extrême.
 - **Gnôle** (Boisson alcoolisée) : Récupérée en secret dans la taverne du village de Corvelune (session 5). Destinée au rendez-vous avec la harpie.
 
-Monnaie : 0 po, 0 pa, 0 pc, 0 pe, 0 pp (Gérée par le MJ pour le moment)
+Monnaie : 160 po, 0 pa, 0 pc, 0 pe, 0 pp (160 po obtenues en session 6)
 
 ## Règles à retenir
 
