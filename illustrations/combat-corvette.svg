@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="0.55" stop-color="#1e2b3d"/><stop offset="1" stop-color="#34465a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c3346"/><stop offset="1" stop-color="#07131d"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4a2e"/><stop offset="1" stop-color="#3a2616"/>
+    </linearGradient>
+    <linearGradient id="scale" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0452a"/><stop offset="1" stop-color="#8e1d12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9fe3ff" stop-opacity="0.9"/><stop offset="1" stop-color="#9fe3ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b8ff9a"/><stop offset="1" stop-color="#3cff6a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lantern" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.8"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="rain" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <line x1="10" y1="0" x2="10" y2="22" stroke="#b9cde0" stroke-opacity="0.35" stroke-width="1.4"/>
+      <line x1="40" y1="30" x2="40" y2="48" stroke="#b9cde0" stroke-opacity="0.28" stroke-width="1.2"/>
+      <line x1="25" y1="40" x2="25" y2="56" stroke="#b9cde0" stroke-opacity="0.2" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- ciel et éclair -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <g fill="#0d1624" opacity="0.85">
+    <ellipse cx="200" cy="90" rx="260" ry="70"/><ellipse cx="620" cy="60" rx="320" ry="80"/><ellipse cx="1050" cy="110" rx="260" ry="75"/>
+  </g>
+  <polyline points="930,40 900,130 935,135 890,250" fill="none" stroke="#e8f4ff" stroke-width="4" opacity="0.9"/>
+  <polyline points="930,40 900,130 935,135 890,250" fill="none" stroke="#9fd0ff" stroke-width="12" opacity="0.25"/>
+
+  <!-- houle au loin -->
+  <path d="M0 400 Q 80 360 160 395 T 320 390 T 480 385 T 640 392 T 800 380 T 960 395 T 1120 385 T 1200 390 V800 H0Z" fill="url(#sea)"/>
+  <path d="M0 400 Q 80 360 160 395 T 320 390 T 480 385 T 640 392 T 800 380 T 960 395 T 1120 385 T 1200 390" fill="none" stroke="#a8c4d6" stroke-opacity="0.5" stroke-width="3"/>
+
+  <!-- navire ennemi au loin -->
+  <g opacity="0.55" fill="#0a121b">
+    <path d="M60 385 L210 385 L195 405 L75 405Z"/><rect x="130" y="290" width="5" height="95"/>
+    <path d="M136 295 L185 330 L136 360Z" fill="#26303b"/>
+  </g>
+
+  <!-- mâts et voiles de la corvette (incliné) -->
+  <g transform="rotate(-5 600 600)">
+    <rect x="575" y="80" width="16" height="470" fill="#4a321d"/>
+    <rect x="470" y="150" width="230" height="10" fill="#4a321d"/>
+    <rect x="490" y="270" width="190" height="9" fill="#4a321d"/>
+    <path d="M478 160 Q 585 205 692 160 L 680 265 Q 585 300 492 265Z" fill="#c9bfa5" opacity="0.92"/>
+    <path d="M498 279 Q 585 315 672 279 L 665 370 Q 585 395 505 370Z" fill="#b9ae93" opacity="0.92"/>
+    <path d="M520 200 L 640 330" stroke="#8a7f68" stroke-width="2" opacity="0.6"/>
+    <line x1="583" y1="85" x2="210" y2="520" stroke="#2a1c10" stroke-width="2"/>
+    <line x1="583" y1="85" x2="1000" y2="520" stroke="#2a1c10" stroke-width="2"/>
+    <path d="M591 82 L 650 95 L 591 108Z" fill="#7a1a14"/>
+    <!-- pont -->
+    <path d="M90 520 L1110 520 L1060 640 L150 640Z" fill="url(#wood)"/>
+    <g stroke="#2c1d10" stroke-width="2" opacity="0.7">
+      <line x1="120" y1="545" x2="1095" y2="545"/><line x1="130" y1="572" x2="1085" y2="572"/><line x1="140" y1="600" x2="1075" y2="600"/>
+    </g>
+    <!-- bastingage -->
+    <rect x="90" y="500" width="1020" height="12" fill="#5a3c22"/>
+    <g fill="#5a3c22"><rect x="110" y="500" width="8" height="25"/><rect x="250" y="500" width="8" height="25"/><rect x="390" y="500" width="8" height="25"/><rect x="800" y="500" width="8" height="25"/><rect x="940" y="500" width="8" height="25"/><rect x="1080" y="500" width="8" height="25"/></g>
+    <!-- coque -->
+    <path d="M150 640 L1060 640 L1010 720 L200 720Z" fill="#2b1b0e"/>
+    <g fill="#120b05"><rect x="300" y="660" width="34" height="22" rx="3"/><rect x="480" y="660" width="34" height="22" rx="3"/><rect x="660" y="660" width="34" height="22" rx="3"/><rect x="840" y="660" width="34" height="22" rx="3"/></g>
+    <!-- lanterne -->
+    <circle cx="1020" cy="470" r="70" fill="url(#lantern)"/>
+    <rect x="1010" y="455" width="20" height="28" rx="3" fill="#ffcf6b" stroke="#3a2616" stroke-width="3"/>
+  </g>
+
+  <!-- vagues au premier plan -->
+  <path d="M0 700 Q 100 650 200 700 T 400 695 T 600 705 T 800 690 T 1000 705 T 1200 690 V800 H0Z" fill="#0b1d2a"/>
+  <path d="M0 700 Q 100 650 200 700 T 400 695 T 600 705 T 800 690 T 1000 705 T 1200 690" fill="none" stroke="#d8e8f2" stroke-opacity="0.7" stroke-width="5"/>
+  <g fill="#e6f1f8" opacity="0.55"><circle cx="190" cy="680" r="6"/><circle cx="215" cy="672" r="4"/><circle cx="790" cy="676" r="7"/><circle cx="820" cy="668" r="4"/><circle cx="1010" cy="684" r="5"/></g>
+
+  <!-- ===== DRAKÉIDE ROUGE ===== -->
+  <g transform="translate(330 300)">
+    <!-- queue -->
+    <path d="M40 210 Q -40 250 -90 225 Q -50 240 30 190Z" fill="url(#scale)"/>
+    <!-- jambes -->
+    <path d="M45 190 L20 290 L55 290 L75 200Z" fill="#9b2416"/>
+    <path d="M95 190 L130 285 L165 285 L120 195Z" fill="#a8281a"/>
+    <path d="M14 288 L62 288 L60 300 L10 300Z" fill="#2a1a10"/><path d="M126 283 L172 283 L172 296 L124 296Z" fill="#2a1a10"/>
+    <!-- torse -->
+    <path d="M30 70 Q 80 40 140 70 L 130 200 L 40 200Z" fill="url(#scale)"/>
+    <path d="M60 85 Q 85 75 110 85 L 105 190 L 65 190Z" fill="#f0b25a" opacity="0.85"/>
+    <g stroke="#b5702c" stroke-width="2" opacity="0.7"><line x1="65" y1="110" x2="108" y2="110"/><line x1="66" y1="135" x2="106" y2="135"/><line x1="67" y1="160" x2="105" y2="160"/></g>
+    <!-- pagne / ceinture -->
+    <rect x="38" y="185" width="95" height="16" fill="#3b2a1a"/>
+    <path d="M45 200 L125 200 L115 235 L55 235Z" fill="#4e3624"/>
+    <!-- bras arrière -->
+    <path d="M40 80 Q 10 120 40 150 L 60 140 Q 40 120 60 95Z" fill="#9b2416"/>
+    <!-- tête -->
+    <g transform="translate(120 20) rotate(12)">
+      <path d="M-30 30 Q -20 -10 20 -10 L 75 10 Q 80 25 70 35 L 15 45 Q -20 50 -30 30Z" fill="url(#scale)"/>
+      <path d="M15 40 L 72 33 L 60 48 L 15 52Z" fill="#7a170e"/>
+      <path d="M-10 -5 L -45 -40 L -5 -12Z" fill="#5c1209"/><path d="M5 -10 L -15 -55 L 18 -12Z" fill="#6c160b"/>
+      <circle cx="25" cy="10" r="5" fill="#ffd34a"/><circle cx="26" cy="10" r="2" fill="#1a0a00"/>
+      <circle cx="68" cy="18" r="2" fill="#3a0a05"/>
+      <!-- souffle de feu -->
+      <path d="M72 30 Q 140 0 230 15 Q 170 30 230 50 Q 150 50 72 42Z" fill="#ff7a1a" opacity="0.85"/>
+      <path d="M75 32 Q 130 18 190 26 Q 150 35 190 44 Q 130 44 75 39Z" fill="#ffd34a" opacity="0.9"/>
+    </g>
+  </g>
+  <!-- bras levé + maillet Aubéclat (rocher) -->
+  <g>
+    <line x1="440" y1="330" x2="372" y2="150" stroke="#5b3b20" stroke-width="13" stroke-linecap="round"/>
+    <path d="M455 385 L 470 330 L 432 262 L 410 275 L 440 335 L 430 380Z" fill="#b52a1b"/>
+    <ellipse cx="425" cy="268" rx="17" ry="15" fill="#9b2416"/>
+    <path d="M440 400 L 395 300 L 410 290 L 460 380Z" fill="#a8281a"/>
+    <ellipse cx="403" cy="292" rx="14" ry="12" fill="#8e1d12"/>
+    <g transform="translate(372 150) rotate(-18)">
+      <circle cx="0" cy="0" r="55" fill="url(#glow)"/>
+      <path d="M-50 -30 L 45 -38 L 58 22 L -45 35Z" fill="#6e6a64" stroke="#3d3a36" stroke-width="3"/>
+      <path d="M-30 -10 L -5 -25 M 20 15 L 40 -5" stroke="#4d4a45" stroke-width="2"/>
+      <circle cx="6" cy="0" r="7" fill="#bff0ff"/>
+      <g fill="#5d7a86"><circle cx="-24" cy="-10" r="3.5"/><circle cx="-14" cy="16" r="3.5"/><circle cx="30" cy="-16" r="3.5"/><circle cx="36" cy="12" r="3.5"/><circle cx="-34" cy="6" r="3.5"/></g>
+    </g>
+  </g>
+
+  <!-- ===== CAPITAINE SQUELETTE ===== -->
+  <g transform="translate(720 270)">
+    <!-- manteau -->
+    <path d="M40 90 Q 85 70 135 90 L 170 300 L 110 285 L 85 300 L 60 285 L 0 300Z" fill="#1a2733"/>
+    <path d="M40 90 Q 85 70 135 90 L 150 200 Q 85 215 25 200Z" fill="#22313f"/>
+    <g fill="#c9a24a"><circle cx="70" cy="120" r="4"/><circle cx="70" cy="145" r="4"/><circle cx="70" cy="170" r="4"/></g>
+    <path d="M60 300 L 55 330 M 110 290 L 118 330" stroke="#ddd6c4" stroke-width="9" stroke-linecap="round"/>
+    <!-- cage thoracique visible -->
+    <g stroke="#ddd6c4" stroke-width="5" fill="none" stroke-linecap="round">
+      <line x1="87" y1="100" x2="87" y2="190"/>
+      <path d="M87 115 Q 110 112 118 125"/><path d="M87 132 Q 112 129 120 142"/><path d="M87 149 Q 110 146 117 158"/>
+    </g>
+    <!-- crâne -->
+    <g transform="translate(85 40)">
+      <path d="M-28 0 Q -30 -38 0 -40 Q 30 -38 28 0 Q 25 18 14 22 L 14 32 L -14 32 L -14 22 Q -25 18 -28 0Z" fill="#e8e1cf"/>
+      <circle cx="-11" cy="-4" r="9" fill="#0a0a0a"/><circle cx="11" cy="-4" r="9" fill="#0a0a0a"/>
+      <circle cx="-11" cy="-4" r="9" fill="url(#eye)"/><circle cx="11" cy="-4" r="9" fill="url(#eye)"/>
+      <path d="M-4 10 L 0 4 L 4 10Z" fill="#0a0a0a"/>
+      <g stroke="#0a0a0a" stroke-width="2"><line x1="-8" y1="24" x2="-8" y2="32"/><line x1="0" y1="24" x2="0" y2="32"/><line x1="8" y1="24" x2="8" y2="32"/></g>
+      <!-- tricorne -->
+      <path d="M-60 -28 Q 0 -60 60 -28 Q 30 -40 0 -36 Q -30 -40 -60 -28Z" fill="#0f151b"/>
+      <path d="M-38 -32 Q 0 -95 38 -32Z" fill="#141c24"/>
+      <path d="M-45 -30 Q 0 -48 45 -30" stroke="#c9a24a" stroke-width="3" fill="none"/>
+      <path d="M-6 -58 L 6 -58 L 0 -46Z" fill="#e8e1cf"/>
+    </g>
+    <!-- bras arrière (lanterne) -->
+    <path d="M135 95 L 175 160 L 190 230" stroke="#ddd6c4" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="192" cy="250" r="45" fill="url(#lantern)"/>
+    <rect x="182" y="232" width="20" height="30" rx="3" fill="#ffcf6b" stroke="#222" stroke-width="3"/>
+    <!-- bras avant + sabre levé -->
+    <path d="M45 95 L 0 70 L -30 30" stroke="#ddd6c4" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <g transform="translate(-32 28) rotate(-125)">
+      <rect x="-6" y="-4" width="26" height="8" fill="#c9a24a"/>
+      <path d="M20 -5 Q 110 -18 160 6 Q 110 0 20 5Z" fill="#b9c4cc" stroke="#6d7880" stroke-width="2"/>
+    </g>
+    <!-- algues / lambeaux -->
+    <path d="M20 280 Q 25 310 15 330 M 150 270 Q 160 300 150 320" stroke="#2f4a3a" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- étincelles du choc -->
+  <g fill="#fff3c4">
+    <circle cx="610" cy="215" r="5"/><circle cx="630" cy="200" r="3"/><circle cx="595" cy="195" r="3"/><circle cx="625" cy="235" r="2.5"/>
+  </g>
+  <path d="M590 210 L 640 205 M 612 185 L 608 238" stroke="#fff3c4" stroke-width="3" opacity="0.8"/>
+
+  <!-- pluie par-dessus -->
+  <rect width="1200" height="800" fill="url(#rain)"/>
+  <rect width="1200" height="800" fill="#0b1522" opacity="0.12"/>
+</svg>
