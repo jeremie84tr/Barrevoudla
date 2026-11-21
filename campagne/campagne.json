@@ -1,12 +1,13 @@
 {
   "nom": "Halloween sur l'île de Corvelune",
   "mj": "Nicolas Urban",
-  "session": 5,
-  "date_maj": "2026-10-31",
-  "statut": "Session 5 terminée",
+  "session": 6,
+  "date_maj": "2026-11-21",
+  "statut": "Session 6 en cours",
   "quetes": [
-    "Offrir l'alliance à la harpie",
-    "Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)"
+    "Offrir l'alliance à la harpie (accomplie en session 6)",
+    "Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)",
+    "Revoir la harpie pour boire ensemble l'alcool trouvé en session 5"
   ],
   "lieux": [
     "Île de départ (sessions 1 à 4, tutoriel) : camps de gobelins à l'est et à l'ouest, fort du nord (château des gobelins), forêt et massifs dangereux au centre, harpies",
@@ -18,12 +19,12 @@
     "Taverne du village (le groupe y dort)",
     "Fort gardé par des squelettes (le capitaine affirme que c'est sûr)",
     "Lieu du rituel d'Ysambre : miroir dans lequel Aube était enfermée",
-    "Camp et bateau (retour du groupe)"
+    "Camp et bateau (retour du groupe)",
+    "Île d'Astera : destination du bateau (session 6)"
   ],
   "situation_actuelle": {
     "en_combat": false,
-    "lieu": "Camp, puis bateau",
-    "adversaire": "Créature de grande taille du village : achevée",
-    "notes": "Fin de la session 5. Le groupe est au camp et au bateau."
+    "lieu": "En bateau, de Corvelune vers l'île d'Astera",
+    "notes": "Session 6 en cours. Barrevoudla a offert l'alliance à la harpie et lui a proposé un verre plus tard."
   }
 }

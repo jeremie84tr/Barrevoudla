@@ -3,7 +3,7 @@
 > Fichier généré par `scripts/generer_fiche.py` : ne pas modifier à la main.
 
 Drakéide rouge · Barbare (Magie sauvage) niveau 4 · Fermier · Chaotique bon
-Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas Urban) · Session 5, mise à jour le 2026-10-31
+Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas Urban) · Session 6, mise à jour le 2026-11-21
 
 ## Combat
 
@@ -106,14 +106,13 @@ Joueur : Jérémie · Campagne : Halloween sur l'île de Corvelune (MJ Nicolas U
 
 ## Équipement
 
-Équipé : Aubéclat (épée dans son rocher, légèrement éveillée), Anneau de saut, Le maudit bâton, Torche, Sac de couchage, Alliance
+Équipé : Aubéclat (épée dans son rocher, légèrement éveillée), Anneau de saut, Le maudit bâton, Torche, Sac de couchage
 
 - **Aubéclat (épée dans son rocher, légèrement éveillée)** (Arme : Maillet d'armes · Légendaire · 10 kg) : Ajoute 1d4 dégâts radiants. 10 cristaux sont visibles sur le pommeau, l'un d'eux scintille d'une lueur bleue (10 petits cristaux, l'un d'eux scintille très légèrement).
 - **Anneau de saut** (Anneau · Peu commun · 390 po) : Porté, permet de lancer le sort Saut depuis l'anneau par une action bonus, à volonté, mais uniquement sur soi-même.
 - **Le maudit bâton** (Sceptre · Très rare · 7500 po · 5 kg) : Au prix d'une action et d'une charge, permet de ranimer le cadavre d'une créature dont le facteur de puissance est inférieur ou égal au niveau du lanceur moins 2. La réanimation dure une heure maximum. Le lanceur ne peut pas contrôler plus de 2 morts-vivants ainsi ranimés simultanément.
 - **Torche** (1 pc) : Brûle 1 heure, lumière vive sur 6 m et lumière faible sur 6 m de plus. Peut servir d'arme courante de corps à corps : 1 dégât de feu si touche.
 - **Sac de couchage** (1 po) : Permet à une créature de taille Petite ou Moyenne de dormir. Réussite automatique aux jets de sauvegarde contre le froid extrême.
-- **Alliance** (Bijou) : Récupérée sur la créature du village par Gromli, qui l'a offerte à Barrevoudla pour qu'il l'offre à sa harpie. Même bague qu'Alesto : elle appartenait à Maelis, son épouse (confirmé).
 
 Monnaie : 0 po, 0 pa, 0 pc, 0 pe, 0 pp (Gérée par le MJ pour le moment)
 
@@ -133,12 +132,13 @@ Monnaie : 0 po, 0 pa, 0 pc, 0 pe, 0 pp (Gérée par le MJ pour le moment)
 
 ## Situation actuelle
 
-Session 5 terminée. Lieu : Camp, puis bateau. Fin de la session 5. Le groupe est au camp et au bateau.
+Session 6 en cours. Lieu : En bateau, de Corvelune vers l'île d'Astera. Session 6 en cours. Barrevoudla a offert l'alliance à la harpie et lui a proposé un verre plus tard.
 
 ### Quêtes
 
-- Offrir l'alliance à la harpie
+- Offrir l'alliance à la harpie (accomplie en session 6)
 - Sauver Aube (accomplie : Gromli a ouvert la cage du miroir ; les ténèbres sont aspirées par le miroir)
+- Revoir la harpie pour boire ensemble l'alcool trouvé en session 5
 
 ### PNJ
 
@@ -146,7 +146,7 @@ Session 5 terminée. Lieu : Camp, puis bateau. Fin de la session 5. Le groupe es
 |---|---|---|
 | Americ | Paladin, compagnon d'expédition | Mort (désigné du doigt par la créature géante (l'Arpenteur nocturne)) |
 | Alesto | Second de l'équipage du bateau | Mort |
-| Harpie (nom non indiqué) | Intérêt amoureux déclaré de Barrevoudla (ne voyage pas avec le groupe) | Apparaît lors d'événements ponctuels |
+| Harpie (nom : un cri d'oiseau) | Intérêt amoureux déclaré de Barrevoudla (ne voyage pas avec le groupe) | Apparaît lors d'événements ponctuels ; a reçu l'alliance (session 6) |
 | Gromli | Camarade du groupe (nain) | Avec le groupe |
 | Mineruva | Camarade du groupe (ensorceleuse) | Avec le groupe |
 | Christophe | Camarade du groupe (moine lutrien, une loutre) | Avec le groupe |
